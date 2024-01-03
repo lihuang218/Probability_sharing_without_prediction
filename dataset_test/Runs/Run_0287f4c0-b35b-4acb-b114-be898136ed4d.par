@@ -1,0 +1,72 @@
+PARSFILE
+#FullDataName CarSim Run Control`MPCtest1`Example
+#VEHICLECODE Ind_Ind
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_0287f4c0-b35b-4acb-b114-be898136ed4d
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 2
+PARSFILE Models\Simulink\Simlink_b36ed14c-6b8d-4802-957e-0fdad522fc76.par
+#BlueLink12 Models: Simulink`MPCtest1` Example` , Models`Simlink_b36ed14c-6b8d-4802-957e-0fdad522fc76
+
+PARSFILE Animator\Cameras\Camera_1fb0f55c-1e0f-4273-988f-4fc4b6d0b560.par
+#BlueLink0 Animator: Camera Setup`Left Side View, Veh. Ref.` Vehicle Reference` , Animator camera`Camera_1fb0f55c-1e0f-4273-988f-4fc4b6d0b560
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 1    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_1ecdba3f-53b7-436b-9711-e7bf25fe3a90.par
+#BlueLink2 Vehicle: Assembly`B-Class, Hatchback` CS B-Class` , Math Model`Vehicle_1ecdba3f-53b7-436b-9711-e7bf25fe3a90
+
+PARSFILE Procedures\Proc_3eebad0c-68cc-4d26-878e-fad4d0cb76a8.par
+#BlueLink28 Procedures`newSplit Mu` MPCExample` , Procedure`Proc_3eebad0c-68cc-4d26-878e-fad4d0cb76a8
+
+*TSTEP 0.001
+*FREQ_MODEL 1000
+*TSTEP_OUT 0.001
+*FREQ_OUT 1000
+tstep 0.001
+iprint 1
+*TSTART 0
+
+*IMAGE_TYPE PASS_THROUGH
+WRITE_SENSOR_DETECT
+Title MPCtest1 <Example>
+CATEGORY Example 
+DATASET_TITLE MPCtest1
+#RingCtrl8 1
+NUM_CACHED_RUNS 1
+#RingCtrl9 1
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { Example } MPCtest1
+#Library : CarSim Run Control
+#DataSet : MPCtest1
+#Category: Example
+#FileID  : Run_0287f4c0-b35b-4acb-b114-be898136ed4d
+#Product : CarSim 2020.0
+#VehCode Run
+
+END

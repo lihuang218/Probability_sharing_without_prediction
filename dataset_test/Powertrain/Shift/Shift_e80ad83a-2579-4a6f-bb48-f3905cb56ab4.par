@@ -1,0 +1,30 @@
+PARSFILE
+#FullDataName Powertrain: Shift Schedule`6-speed, 5-6 shift`6-speed
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+
+#DiagramOne0
+UPSHIFT_TRANS_TABLE
+0, 3093
+0.2, 3093
+0.8, 8205
+1, 8205
+ENDTABLE
+#DiagramOne1
+DOWNSHIFT_TRANS_TABLE
+0, 2474
+0.4, 2474
+0.8, 6154
+1, 6154
+ENDTABLE
+
+LOG_ENTRY Used Dataset: Powertrain: Shift Schedule; { 6-speed } 6-speed, 5-6 shift
+#Library : Powertrain: Shift Schedule
+#DataSet : 6-speed, 5-6 shift
+#Category: 6-speed
+#FileID  : Shift_e80ad83a-2579-4a6f-bb48-f3905cb56ab4
+#Product : CarSim 2020.0
+#VehCode Shift Schedule
+
+END

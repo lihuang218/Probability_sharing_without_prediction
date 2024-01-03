@@ -1,0 +1,45 @@
+PARSFILE
+#FullDataName Road: 3D Surface (All Properties)`1 km Square (Mu = 1.0)`3D Grid
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Roads\3D_Road\Road_28b812f3-b96c-457f-9b2b-45a2a29c1aa2.png
+#RingCtrl0 1
+#CheckBox0 0    
+
+SET_IROAD_FOR_ID 0
+CURRENT_ROAD_ID = ROAD_ID
+set_description road_id 1 km Square (Mu = 1.0)
+PARSFILE Roads\Center_XY\PathXY_71f35713-5c48-44c5-85b2-04401a5ef401.par
+#BlueLink0 Path: X-Y Coordinates`Straight` ` , Reference Path`PathXY_71f35713-5c48-44c5-85b2-04401a5ef401
+
+ROAD_PATH_ID = PATH_ID
+
+set_description road_path_id PATH_ID for: Straight
+PARSFILE Roads\Friction\RdMu_20167212-73cb-4cc5-9cdd-34461b15b290.par
+#BlueLink3 Road: Friction Map, S-L Grid`1.0` Constant Mu` , Friction`RdMu_20167212-73cb-4cc5-9cdd-34461b15b290
+
+PARSFILE Roads\Shapes\RdShape_57afce9f-6918-4a7d-9dd9-49b065c8c324.par
+#BlueLink4 Road: Animator Surface Shapes`1 km Square Checkerboard` 3D Grid` , Road shape definitions`RdShape_57afce9f-6918-4a7d-9dd9-49b065c8c324
+
+RR_SURF 1
+L_CAMERA_FRONT 0.5
+L_CAMERA_REAR 0.5
+add_reference_frame road_stuff_6_Partly_Cloudy_Sky_(Normal_Resolution)
+reference_frame_ghosts off
+PARSFILE Animator\Groups\Group_2c97e447-e6d7-435d-b1d2-ee061a14bac7.par
+#BlueLink6 Animator: Group`Partly Cloudy Sky (Normal Resolution)` Skies` , 3D Shapes`Group_2c97e447-e6d7-435d-b1d2-ee061a14bac7
+
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_915b3474-0a60-4785-ad2d-de8520de23e7.par
+#BlueLink5 Animator: Camera Setup`Rear View , Road Ref. (Frt. Facing)` Road Reference` , Camera`Camera_915b3474-0a60-4785-ad2d-de8520de23e7
+
+parsfile Roads\3D_Road\Road_28b812f3-b96c-457f-9b2b-45a2a29c1aa2.ani
+
+LOG_ENTRY Used Dataset: Road: 3D Surface (All Properties); { 3D Grid } 1 km Square (Mu = 1.0)
+#Library : Road: 3D Surface (All Properties)
+#DataSet : 1 km Square (Mu = 1.0)
+#Category: 3D Grid
+#FileID  : Road_28b812f3-b96c-457f-9b2b-45a2a29c1aa2
+#Product : CarSim 2020.0
+#VehCode 3D Road
+
+END

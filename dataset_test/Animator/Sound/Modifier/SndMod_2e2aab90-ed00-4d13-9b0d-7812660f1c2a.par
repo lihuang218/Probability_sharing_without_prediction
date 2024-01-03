@@ -1,0 +1,30 @@
+PARSFILE
+#FullDataName Animator: Sound Modifier`Tire Slip - Volume (Force)`Tire Sound Modifiers
+
+
+#RingCtrl0 VOLUME
+ADD_SOUND_MODIFIER VOLUME
+SOUNDMOD_OPERATION mult
+
+SOUNDMOD_INPUT_NAME FZ_<<tire>>
+SOUNDMOD_INPUT_MIN 0.0
+SOUNDMOD_INPUT_LOW 1333.0
+SOUNDMOD_INPUT_HIGH 2666.0
+SOUNDMOD_INPUT_MAX 4000.0
+SOUNDMOD_OUTPUT_MIN 0.0
+SOUNDMOD_OUTPUT_LOW 0.333
+SOUNDMOD_OUTPUT_HIGH 0.666
+SOUNDMOD_OUTPUT_MAX 1.0
+
+WRT_FZ_<<tire>>
+ANI_FZ_<<tire>>
+
+LOG_ENTRY Used Dataset: Animator: Sound Modifier; { Tire Sound Modifiers } Tire Slip - Volume (Force)
+#Library : Animator: Sound Modifier
+#DataSet : Tire Slip - Volume (Force)
+#Category: Tire Sound Modifiers
+#FileID  : SndMod_2e2aab90-ed00-4d13-9b0d-7812660f1c2a
+#Product : CarSim 2020.0
+#VehCode Sound Modifier
+
+END

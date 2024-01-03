@@ -1,0 +1,31 @@
+PARSFILE
+#FullDataName I/O Channels: Export`MPCtest1 output`
+#RingCtrl0 0
+#RingCtrl1 1
+*README_FILE Programs\solvers\ReadMe\i_i_outputs_tab.txt
+
+
+EXPORT Xo
+EXPORT Yo
+EXPORT Yaw
+EXPORT Vx
+EXPORT Steer_SW
+#MiscYellow0
+#Number of Selected Channels: 5
+#CHN_NAME: Xo
+#CHN_NAME: Yo
+#CHN_NAME: Yaw
+#CHN_NAME: Vx
+#CHN_NAME: Steer_SW
+#ENDMYellow
+
+
+LOG_ENTRY Used Dataset: I/O Channels: Export; MPCtest1 output
+#Library : I/O Channels: Export
+#DataSet : MPCtest1 output
+#Category: 
+#FileID  : Export_4a3d279e-04c2-476a-8fb8-51c5553ce6bf
+#Product : CarSim 2020.0
+#VehCode Export Channels
+
+END

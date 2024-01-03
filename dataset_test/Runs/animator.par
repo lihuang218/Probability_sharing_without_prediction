@@ -1,0 +1,13 @@
+PARSFILE
+search_path_append .
+search_path_append D:\lihuang\code\section1\base\matlab\dataset_test\
+search_path_append C:\Program Files (x86)\CarSim2020.0_Prog\Resources\
+search_path_append C:\Program Files (x86)\CarSim2020.0_Prog\
+search_path_append C:\Program Files (x86)\CarSim2020.0_Prog\Resources\Animator\Deprecated_Assets\
+set_run_slot 0
+DATASET D:\lihuang\code\section1\base\matlab\dataset_test\Results\Run_bf90246f-fadd-4e3a-a352-50ccf8adae1d\LastRun.vs
+PARSFILE D:\lihuang\code\section1\base\matlab\dataset_test\Results\Run_bf90246f-fadd-4e3a-a352-50ccf8adae1d\LastRun_all.par
+LIVE_SERVER_REMOVE_ALL
+SET_PATH_COLOR 1 1 1
+DISPLAY OFF
+END

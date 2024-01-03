@@ -1,0 +1,30 @@
+PARSFILE
+#FullDataName Animator: Sound Modifier`Gas Engine Freq 1`Engine Sound Modifiers
+
+
+#RingCtrl0 FREQUENCY
+ADD_SOUND_MODIFIER FREQUENCY
+SOUNDMOD_OPERATION mult
+
+SOUNDMOD_INPUT_NAME av_eng
+SOUNDMOD_INPUT_MIN 0.0
+SOUNDMOD_INPUT_LOW 500.0
+SOUNDMOD_INPUT_HIGH 4000.0
+SOUNDMOD_INPUT_MAX 8000.0
+SOUNDMOD_OUTPUT_MIN 0.0
+SOUNDMOD_OUTPUT_LOW 0.5
+SOUNDMOD_OUTPUT_HIGH 1.0
+SOUNDMOD_OUTPUT_MAX 2.0
+
+WRT_av_eng
+ANI_av_eng
+
+LOG_ENTRY Used Dataset: Animator: Sound Modifier; { Engine Sound Modifiers } Gas Engine Freq 1
+#Library : Animator: Sound Modifier
+#DataSet : Gas Engine Freq 1
+#Category: Engine Sound Modifiers
+#FileID  : SndMod_4da40e43-95d0-462b-b22b-e8261ed66139
+#Product : CarSim 2020.0
+#VehCode Sound Modifier
+
+END

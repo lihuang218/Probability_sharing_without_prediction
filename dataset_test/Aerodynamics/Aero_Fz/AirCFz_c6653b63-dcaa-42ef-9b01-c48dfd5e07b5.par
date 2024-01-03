@@ -1,0 +1,68 @@
+PARSFILE
+#FullDataName Aerodynamics: Fz (Lift) Coef. vs. Aero Slip`CFz`
+#CheckBox0 0    
+
+#RingCtrl0 LINEAR_FLAT
+#RadioCtrl0 0    
+
+#DiagramOne0
+FZ_AERO_SHAPING_TABLE LINEAR_FLAT
+-90, 0
+-84, 0.0145
+-78, 0.0567
+-72, 0.1224
+-66, 0.2052
+-60, 0.297
+-54, 0.3888
+-48, 0.4716
+-42, 0.5373
+-36, 0.5795
+-30, 0.594
+-20, 0.594
+-18, 0.51268
+-16, 0.43992
+-14, 0.37572
+-12, 0.32008
+-10, 0.273
+-8, 0.23448
+-6, 0.20452
+-4, 0.18312
+-2, 0.17028
+0, 0.166
+2, 0.17028
+4, 0.18312
+6, 0.20452
+8, 0.23448
+10, 0.273
+12, 0.32008
+14, 0.37572
+16, 0.43992
+18, 0.51268
+20, 0.594
+30, 0.594
+36, 0.5795
+42, 0.5373
+48, 0.4716
+54, 0.3888
+60, 0.297
+66, 0.2052
+72, 0.1224
+78, 0.0567
+84, 0.0145
+90, 0
+ENDTABLE
+
+
+#EMBEDDED_NOTES
+#Example Lift force data.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Aerodynamics: Fz (Lift) Coef. vs. Aero Slip; CFz
+#Library : Aerodynamics: Fz (Lift) Coef. vs. Aero Slip
+#DataSet : CFz
+#Category: 
+#FileID  : AirCFz_c6653b63-dcaa-42ef-9b01-c48dfd5e07b5
+#Product : CarSim 2020.0
+#VehCode Lift vs. Aero Slip
+
+END

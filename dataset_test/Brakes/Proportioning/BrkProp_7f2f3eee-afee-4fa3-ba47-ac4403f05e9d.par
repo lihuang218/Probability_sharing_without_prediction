@@ -1,0 +1,24 @@
+PARSFILE
+#FullDataName Brakes: Proportioning / Limiting Valve`Unity Gain`
+#CheckBox0 0    
+
+#RingCtrl0 COEFFICIENT
+#RingCtrl1 CONSTANT
+#RingCtrl2 MULTIPLY
+PBK_DL_COMBINE MULTIPLY
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+PBK_DL_COEFFICIENT 1
+*SCALAR 1
+
+
+LOG_ENTRY Used Dataset: Brakes: Proportioning / Limiting Valve; Unity Gain
+#Library : Brakes: Proportioning / Limiting Valve
+#DataSet : Unity Gain
+#Category: 
+#FileID  : BrkProp_7f2f3eee-afee-4fa3-ba47-ac4403f05e9d
+#Product : CarSim 2020.0
+#VehCode Prop / Limit Valve
+
+END

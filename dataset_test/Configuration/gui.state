@@ -1,0 +1,68 @@
+LastDS CarSim Run Control`Run_bf90246f-fadd-4e3a-a352-50ccf8adae1d
+LastDS Aerodynamics: Basic`Aero_e741c50c-f322-48be-bc47-25330faac9d2
+LastDS Aerodynamics: Fx (Drag) Coef. vs. Aero Slip`AirCFx_d30ecbbc-e17e-4413-a66f-ed8d6dc7ff83
+LastDS Aerodynamics: Fy (Side Force) Coef. vs. Aero Slip`AirCFy_d82822e0-b68b-4403-ae6f-41608978dac8
+LastDS Aerodynamics: Fz (Lift) Coef. vs. Aero Slip`AirCFz_c6653b63-dcaa-42ef-9b01-c48dfd5e07b5
+LastDS Aerodynamics: Mx (Roll Moment) Coef. vs. Aero Slip`AirCMx_a3893628-de74-4000-b54c-baefa95edc86
+LastDS Aerodynamics: My (Pitch Moment) Coef. vs. Aero Slip`AirCMy_4ae5b9fc-5723-4eec-9698-f47ed7b6eaac
+LastDS Aerodynamics: Mz (Yaw Moment) Coef. vs. Aero Slip`AirCMz_7f4e4518-7009-4666-bbf0-f7bead86a2de
+LastDS Animator: Camera Setup`Camera_915b3474-0a60-4785-ad2d-de8520de23e7
+LastDS Animator: Group`Group_2c97e447-e6d7-435d-b1d2-ee061a14bac7
+LastDS Animator: Reference Frame`Frame_5b51e7f1-b7a8-4c9a-b121-181355ff3347
+LastDS Animator: Shape File Link`Shape_89a7491f-fbb9-4711-8054-37efd96fdbee
+LastDS Animator: Shape Assembly`ShpGrp_7db15d2f-8b6d-4a8d-89ff-910b6dd1e937
+LastDS Animator: Sound Modifier`SndMod_992a87f1-ea64-48eb-9f4e-c19c34f0d74b
+LastDS Animator: Sound Sample`SndSmp_ed30afa8-93e1-4129-bae7-cf6696ebe043
+LastDS Animator: Sound Set`SndSet_684fa3be-a91b-4e86-aeee-729f16f9b730
+LastDS Animator: Vehicles and Sensor Targets`AniVeh_4a7cba8e-dbdf-44eb-8d11-07b360cfbf24
+LastDS Animator: Wheel Arrows and Other Indicators`Arrows_21ff9611-48f8-41e4-9be4-e6d10216594c
+LastDS Brakes: Four-Wheel System`Brk4W_a34f6ab7-7939-48de-ae8f-bcb5082a8c52
+LastDS Brakes: Proportioning / Limiting Valve`BrkProp_f1936408-98dc-4ce1-8695-8698e9c4f9fb
+LastDS Brakes: Torque`BrkTrq_1b8c47e5-cbb0-4f71-9fd2-3e1634225aef
+LastDS Control: Braking MC Pressure (Open Loop)`PbkCon_bc0972e1-ebe4-439c-9f72-74091e10e593
+LastDS Control: Shifting (Closed Loop)`GearCL_5cc9ade3-3ba7-41d8-90d7-db6e0f42c758
+LastDS Control: Steering (Open Loop)`StrSW_eb0da117-454d-4b9a-98ac-492ceb787a71
+LastDS Generic Data Group`GenGrp_bde6b491-48a7-43eb-972c-fed64268c5b5
+LastDS I/O Channels: Export`Export_b8eedc0b-b23c-4e31-8109-6309f74d10ef
+LastDS I/O Channels: Import`Import_f7527dc5-0e5a-49e6-a28b-a2a412fecea0
+LastDS I/O Channels: Write`Write_12d1c4b5-6516-4457-98d9-8beb4b02132a
+LastDS Models: Simulink`Simlink_b36ed14c-6b8d-4802-957e-0fdad522fc76
+LastDS Road: 3D Surface (All Properties)`Road_28b812f3-b96c-457f-9b2b-45a2a29c1aa2
+LastDS Path: X-Y Coordinates`PathXY_71f35713-5c48-44c5-85b2-04401a5ef401
+LastDS Road: Animator Surface Shapes`RdShape_57afce9f-6918-4a7d-9dd9-49b065c8c324
+LastDS Road: Friction Map, S-L Grid`RdMu_20167212-73cb-4cc5-9cdd-34461b15b290
+LastDS Plot: Format`PlotFmt_efff41ed-8854-496f-bfe1-6e09c432655f
+LastDS Plot: Setup`Plot_81091c4d-cd38-4767-977b-ac23bdac57a0
+LastDS Powertrain: Engine`Engine_8de5ebf9-c887-4cba-b424-3093d875918a
+LastDS Powertrain: Front Differential`DiffF_74b44e70-974e-4b70-aa32-84faf47c5b10
+LastDS Powertrain: Front-Wheel Drive`FWD_fc089106-75b9-4554-929d-17754d3f0da4
+LastDS Powertrain: Torque Converter`TC_610ffb64-ae7f-4eda-9142-e6cc92600bd4
+LastDS Powertrain: Transmission (18 Gears or CVT)`Trans18_ddfcc199-a01d-4d72-8b25-1731bca18f34
+LastDS Powertrain: Shift Schedule`Shift_e80ad83a-2579-4a6f-bb48-f3905cb56ab4
+LastDS Procedures`Proc_4be31b6c-c58e-4897-9b19-64ff4230ea7e
+LastDS Steering`StrSys2_17940e2a-cbbf-4535-adbf-ed25ef8b100a
+LastDS Steering System: Compliance`StrCmp_6290c3be-1900-4b65-9960-7023dc024268
+LastDS Steering System: Kinematics for 2 Wheels (Rack & Pinion)`RkKin2_2c3e7e42-9c50-4d14-8cef-f5f8b0557225
+LastDS Steering System: Rack Kinematics`RackKin_faa7ed59-6436-4619-810d-54721be7104f
+LastDS Steering: Parking Torque for 2 Wheels`TqPark2_c416e83d-4cdc-446e-9a93-416b9204adf2
+LastDS Steering: Power Assist Force`FBoost_b8150739-8632-4559-95f2-7295d388670d
+LastDS Suspension: Independent System Kinematics`KinInd_0e0e6dbd-004c-4e93-8547-1a775f887107
+LastDS Suspension: Independent Compliance, Springs, and Dampers`CmpInd_7579dcf8-0332-4e23-9364-4bd4aec396a2
+LastDS Suspension: Auxiliary Roll Moment`AuxMx_43a81aa3-5db6-4065-8fd6-b02365a9c835
+LastDS Suspension: Camber Angle`Camber_1f0f3cb1-5c2b-44da-8519-fdb74428dd63
+LastDS Suspension: Dive Angle (Caster Change)`Dive_d24492b2-7ec0-4d78-b50b-5f4ef9c8fc74
+LastDS Suspension: Jounce and Rebound Stops`JncReb_a1331dc9-32ec-4867-a3f2-9b6fd0cbfbfb
+LastDS Suspension: Lateral Movement Due to Jounce`LatJnc_f2d55b92-afee-4487-9cb5-1bcb11a1e6f3
+LastDS Suspension: Longitudinal Movement`SusX_57e0b9a0-cc5d-4c1d-9801-8f7b9b5c9279
+LastDS Suspension: Shock Absorber`Shock_83cf9d0a-63ba-4ab2-8a7b-d2f2cebd7bc0
+LastDS Suspension: Spring`Spring_d9d60cba-f0c2-4e2d-b870-b4110d9eec9d
+LastDS Suspension: Toe Angle`Toe_8c7213b9-b5c3-4c3d-a0a2-5bb1a5e8562f
+LastDS Tire`Tire_31d0d6dd-634b-436b-b451-8fdd1a3a7214
+LastDS Tire: Aligning Moment`TireMz_14685c9f-e994-424f-87c5-6e7b41c55523
+LastDS Tire: Camber Thrust Coefficient`CamStiff_beb9a468-6253-4237-993d-204c3f8d0258
+LastDS Tire: Lateral Force`TireFy_cf16ad6b-9f30-4a43-b9dd-a8c9a17cda19
+LastDS Tire: Longitudinal Force`TireFx_88d69cf2-6c00-480e-a6bc-fe681e519de2
+LastDS Vehicle: Assembly`Vehicle_e8882ea5-be7e-48d9-b891-5726c55ea8fa
+LastDS Vehicle: Sprung Mass`SprMass_e200008f-c003-4e17-b6bf-b7138be7c272
+LastDS Preferences`pref_2f428936-e90c-46c4-8149-d3fe24e94041
+LastScreen CarSim Run Control

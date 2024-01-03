@@ -1,0 +1,40 @@
+PARSFILE
+#FullDataName Animator: Camera Setup`Left Side View, Veh. Ref.`Vehicle Reference
+#RingCtrl1 0
+
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 1    
+
+GHOST_COUNT 0
+SET_CAMERA_REFERENCE_FRAME Frame_a415c392-d432-4d48-8059-4cc6aa6a479d
+PARSFILE Animator\Frames\Frame_a415c392-d432-4d48-8059-4cc6aa6a479d.par
+#BlueLink0 Animator: Reference Frame`Camera Tracking X-Y-Z-Yaw` Cameras` , Reference frame for outside camera`Frame_a415c392-d432-4d48-8059-4cc6aa6a479d
+
+SET_LOOKPOINT_REFERENCE_FRAME Frame_a415c392-d432-4d48-8059-4cc6aa6a479d
+SET_LOOKPOINT_X -2
+SET_LOOKPOINT_Y 0
+SET_LOOKPOINT_Z 0
+SET_AZIMUTH 90
+SET_ELEVATION 5
+SET_DISTANCE 43
+SET_CAMERAMAN_NAME External camera
+*SET_LOOKPOINT_X -2
+*SET_LOOKPOINT_Y 0
+*SET_LOOKPOINT_Z 0
+*SET_AZIMUTH 90
+*SET_ELEVATION 5
+*SET_DISTANCE 43
+GHOST_COUNT 0
+FOG_SCALE 0
+SET_FIELD_OF_VIEW 25
+
+LOG_ENTRY Used Dataset: Animator: Camera Setup; { Vehicle Reference } Left Side View, Veh. Ref.
+#Library : Animator: Camera Setup
+#DataSet : Left Side View, Veh. Ref.
+#Category: Vehicle Reference
+#FileID  : Camera_1fb0f55c-1e0f-4273-988f-4fc4b6d0b560
+#Product : CarSim 2020.0
+#VehCode Camera
+
+END

@@ -1,0 +1,59 @@
+PARSFILE
+#FullDataName Suspension: Dive Angle (Caster Change)`Rear 5-Link - Dive Angle`5-Link Rear
+#CheckBox0 0    
+
+#RingCtrl0 SPLINE
+#RingCtrl1 CONSTANT
+#RingCtrl2 ADD
+SUSP_DIVE_COMBINE ADD
+*SCALAR 0
+
+#DiagramOne0
+SUSP_DIVE_TABLE SPLINE
+-70, 0
+-60, 0
+-50, 0
+-40, 0
+-30, 0
+-20, 0
+-10, 0
+0, 0
+10, 0
+20, 0
+30, 0
+40, 0
+50, 0
+60, 0
+70, 0
+ENDTABLE
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+#DiagramOne0
+SUSP_DIVE_AXLE_TABLE SPLINE
+-70, 0
+-60, 0
+-50, 0
+-40, 0
+-30, 0
+-20, 0
+-10, 0
+0, 0
+10, 0
+20, 0
+30, 0
+40, 0
+50, 0
+60, 0
+70, 0
+ENDTABLE
+
+LOG_ENTRY Used Dataset: Suspension: Dive Angle (Caster Change); { 5-Link Rear } Rear 5-Link - Dive Angle
+#Library : Suspension: Dive Angle (Caster Change)
+#DataSet : Rear 5-Link - Dive Angle
+#Category: 5-Link Rear
+#FileID  : Dive_d24492b2-7ec0-4d78-b50b-5f4ef9c8fc74
+#Product : CarSim 2020.0
+#VehCode Dive
+
+END

@@ -1,0 +1,40 @@
+PARSFILE
+#FullDataName Animator: Camera Setup`Shape Preview (Top)`Shape Preview
+#RingCtrl1 0
+
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 1    
+
+GHOST_COUNT 0
+SET_CAMERA_REFERENCE_FRAME Frame_2a676aa1-45f2-460b-aa6a-846d44912de0
+PARSFILE Animator\Frames\Frame_2a676aa1-45f2-460b-aa6a-846d44912de0.par
+#BlueLink0 Animator: Reference Frame`Fixed` ` , Reference frame for outside camera`Frame_2a676aa1-45f2-460b-aa6a-846d44912de0
+
+SET_LOOKPOINT_REFERENCE_FRAME Frame_2a676aa1-45f2-460b-aa6a-846d44912de0
+SET_LOOKPOINT_X -1.2
+SET_LOOKPOINT_Y 0
+SET_LOOKPOINT_Z 0
+SET_AZIMUTH 180
+SET_ELEVATION 90
+SET_DISTANCE 35
+SET_CAMERAMAN_NAME External camera
+*SET_LOOKPOINT_X -1.2
+*SET_LOOKPOINT_Y 0
+*SET_LOOKPOINT_Z 0
+*SET_AZIMUTH 180
+*SET_ELEVATION 90
+*SET_DISTANCE 35
+GHOST_COUNT 0
+FOG_SCALE 0
+SET_FIELD_OF_VIEW 21.1
+
+LOG_ENTRY Used Dataset: Animator: Camera Setup; { Shape Preview } Shape Preview (Top)
+#Library : Animator: Camera Setup
+#DataSet : Shape Preview (Top)
+#Category: Shape Preview
+#FileID  : Camera_567b8ac7-49f9-4fca-b896-3d80fc393aa9
+#Product : CarSim 2020.0
+#VehCode Camera
+
+END

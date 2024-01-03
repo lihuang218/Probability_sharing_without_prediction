@@ -1,0 +1,67 @@
+PARSFILE
+#FullDataName Tire`185/65 R15`
+X_LENGTH 310.8
+Z_LENGTH 310.8
+Y_LENGTH 185
+#CheckBox2 0    
+#CheckBox4 1    
+#CheckBox5 0    
+#CheckBox6 1    
+
+#RingCtrl0 1
+#RingCtrl5 1
+#RingCtrl6 1
+#RingCtrl7 3
+#RingCtrl8 3
+#RingCtrl9 2
+OPT_TIRE_LAG_KAPPA 2
+#RingCtrl10 1
+OPT_TIRE_LAG_ALPHA 1
+OPT_TIRE_MODEL 1
+
+PARSFILE Animator\STL_Groups\ShpGrp_77ab32e7-5902-4435-b560-586ac589734f.par
+#BlueLink4 Animator: Shape Assembly`Small Car` Tires` , Animator`ShpGrp_77ab32e7-5902-4435-b560-586ac589734f
+
+WRITE_WHEEL_OFFSET
+*SET_THICKNESS 185
+RRE 304
+R0 310.8
+FZ_TIRE_COEFFICIENT 230
+FZ_MAX 100000
+IT 0
+L_RELAX_X_CONSTANT 55
+L_RELAX_Y_CONSTANT 565
+VLOW_ALPHA 5
+RR_C 0.004
+RR_V 0.000025
+L_CONTACT_X_CONSTANT 0
+L_CONTACT_Y_CONSTANT 0
+RR_FX 1
+OPT_TIRE_COMB 0
+PARSFILE Tires\Mz\TireMz_14685c9f-e994-424f-87c5-6e7b41c55523.par
+#BlueLink0 Tire: Aligning Moment`Car Mz` Typical Car Mz` , Aligning Moment`TireMz_14685c9f-e994-424f-87c5-6e7b41c55523
+
+PARSFILE Tires\Fy\TireFy_cf16ad6b-9f30-4a43-b9dd-a8c9a17cda19.par
+#BlueLink1 Tire: Lateral Force`Car Fy` Typical Car Fy` , Lateral Force`TireFy_cf16ad6b-9f30-4a43-b9dd-a8c9a17cda19
+
+PARSFILE Tires\Fx\TireFx_88d69cf2-6c00-480e-a6bc-fe681e519de2.par
+#BlueLink2 Tire: Longitudinal Force`Car Fx` Typical Car Fx` , Longitudinal Force`TireFx_88d69cf2-6c00-480e-a6bc-fe681e519de2
+
+PARSFILE Tires\Camber_Thrust\CamStiff_beb9a468-6253-4237-993d-204c3f8d0258.par
+#BlueLink3 Tire: Camber Thrust Coefficient`Car Camber Thrust (8.02)` Typical Car Camber Thrust` , Camber Thrust`CamStiff_beb9a468-6253-4237-993d-204c3f8d0258
+
+
+
+#EMBEDDED_NOTES
+#Example of a tire using the CarSim Internal Tire Model.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Tire; 185/65 R15
+#Library : Tire
+#DataSet : 185/65 R15
+#Category: 
+#FileID  : Tire_31d0d6dd-634b-436b-b451-8fdd1a3a7214
+#Product : CarSim 2020.0
+#VehCode Tire
+
+END

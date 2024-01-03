@@ -1,0 +1,30 @@
+PARSFILE
+#FullDataName Animator: Sound Modifier`Gas Engine Vol. 2, Throttle`Engine Sound Modifiers
+
+
+#RingCtrl0 VOLUME
+ADD_SOUND_MODIFIER VOLUME
+SOUNDMOD_OPERATION mult
+
+SOUNDMOD_INPUT_NAME throttle
+SOUNDMOD_INPUT_MIN 0.0
+SOUNDMOD_INPUT_LOW 1.0
+SOUNDMOD_INPUT_HIGH 1.0
+SOUNDMOD_INPUT_MAX 1.0
+SOUNDMOD_OUTPUT_MIN 0.0
+SOUNDMOD_OUTPUT_LOW 1.0
+SOUNDMOD_OUTPUT_HIGH 1.0
+SOUNDMOD_OUTPUT_MAX 1.0
+
+WRT_throttle
+ANI_throttle
+
+LOG_ENTRY Used Dataset: Animator: Sound Modifier; { Engine Sound Modifiers } Gas Engine Vol. 2, Throttle
+#Library : Animator: Sound Modifier
+#DataSet : Gas Engine Vol. 2, Throttle
+#Category: Engine Sound Modifiers
+#FileID  : SndMod_ed9faa71-edb0-4aec-9a76-898d1144b6d6
+#Product : CarSim 2020.0
+#VehCode Sound Modifier
+
+END

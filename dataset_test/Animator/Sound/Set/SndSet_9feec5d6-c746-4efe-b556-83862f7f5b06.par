@@ -1,0 +1,30 @@
+PARSFILE
+#FullDataName Animator: Sound Set`Tire Sounds`Tire Sounds
+
+PARSFILE Animator\Sound\Sample\SndSmp_e701e5cf-0eae-4e2d-a5a3-e3dadd6da871.par
+#BlueLink0 Animator: Sound Sample`Lateral Tire Sound` Tire Sounds` , Sample 1`SndSmp_e701e5cf-0eae-4e2d-a5a3-e3dadd6da871
+
+
+PARSFILE Animator\Sound\Sample\SndSmp_81d637f3-1946-467f-9b56-29546e33c77e.par
+#BlueLink1 Animator: Sound Sample`Longitudinal Tire Sound` Tire Sounds` , Sample 2`SndSmp_81d637f3-1946-467f-9b56-29546e33c77e
+
+
+
+
+
+
+
+
+
+
+
+
+LOG_ENTRY Used Dataset: Animator: Sound Set; { Tire Sounds } Tire Sounds
+#Library : Animator: Sound Set
+#DataSet : Tire Sounds
+#Category: Tire Sounds
+#FileID  : SndSet_9feec5d6-c746-4efe-b556-83862f7f5b06
+#Product : CarSim 2020.0
+#VehCode Sound Set
+
+END

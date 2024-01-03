@@ -1,0 +1,32 @@
+PARSFILE
+#FullDataName Brakes: Proportioning / Limiting Valve`Unity until 1.5Mpa then 30%`
+#CheckBox0 0    
+
+#RingCtrl0 CARPET
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+*3D_XLabel Dynamic wheel load (N)
+*3D_YLabel Control pressure (MPa)
+*3D_ZLabel Delivery pressure (MPa)
+
+#DiagramTwo0
+*3D_DATA 2, 3 ! columns x rows
+PBK_DL_CARPET 2D_LINEAR
+0, 1000, 2000
+0, 0, 0
+1.5, 1.5, 1.5
+2.5, 1.8, 1.8
+ENDTABLE
+
+
+
+LOG_ENTRY Used Dataset: Brakes: Proportioning / Limiting Valve; Unity until 1.5Mpa then 30%
+#Library : Brakes: Proportioning / Limiting Valve
+#DataSet : Unity until 1.5Mpa then 30%
+#Category: 
+#FileID  : BrkProp_f1936408-98dc-4ce1-8695-8698e9c4f9fb
+#Product : CarSim 2020.0
+#VehCode Prop / Limit Valve
+
+END

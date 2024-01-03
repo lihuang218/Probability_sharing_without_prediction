@@ -1,0 +1,70 @@
+PARSFILE
+#FullDataName CarSim Run Control`MPCtest1 #1`Example
+#VEHICLECODE Ind_Ind
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_bf90246f-fadd-4e3a-a352-50ccf8adae1d
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 2
+PARSFILE Models\Simulink\Simlink_b36ed14c-6b8d-4802-957e-0fdad522fc76.par
+#BlueLink12 Models: Simulink`MPCtest1` Example` , Models`Simlink_b36ed14c-6b8d-4802-957e-0fdad522fc76
+
+PARSFILE Animator\Cameras\Camera_915b3474-0a60-4785-ad2d-de8520de23e7.par
+#BlueLink0 Animator: Camera Setup`Rear View , Road Ref. (Frt. Facing)` Road Reference` , Animator camera`Camera_915b3474-0a60-4785-ad2d-de8520de23e7
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 1
+#RingCtrl7 -1
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_e8882ea5-be7e-48d9-b891-5726c55ea8fa.par
+#BlueLink2 Vehicle: Assembly`B-Class, Hatchback #1` CS B-Class` , Math Model`Vehicle_e8882ea5-be7e-48d9-b891-5726c55ea8fa
+
+PARSFILE Procedures\Proc_4be31b6c-c58e-4897-9b19-64ff4230ea7e.par
+#BlueLink28 Procedures`newSplit Mu #1` MPCExample` , Procedure`Proc_4be31b6c-c58e-4897-9b19-64ff4230ea7e
+
+*TSTART 0
+PARSFILE Plot\Setup\Plot_81091c4d-cd38-4767-977b-ac23bdac57a0.par
+#BlueLink15 Plot: Setup`Z vs. X -- Trajectory (Front)` Tracking` , Plot`Plot_81091c4d-cd38-4767-977b-ac23bdac57a0
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_4a7cba8e-dbdf-44eb-8d11-07b360cfbf24.png
+WRITE_SENSOR_DETECT
+Title MPCtest1 #1 <Example>
+CATEGORY Example 
+DATASET_TITLE MPCtest1 #1
+#RingCtrl8 1
+NUM_CACHED_RUNS 1
+#RingCtrl9 1
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { Example } MPCtest1 #1
+#Library : CarSim Run Control
+#DataSet : MPCtest1 #1
+#Category: Example
+#FileID  : Run_bf90246f-fadd-4e3a-a352-50ccf8adae1d
+#Product : CarSim 2020.0
+#VehCode Run
+
+END

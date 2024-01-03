@@ -1,0 +1,27 @@
+PARSFILE
+#FullDataName Models: Simulink`MPCtest1`Example
+#RunMdlFile E:\BaiduSyncdisk\code2\Probability-sharing\SceneCameraRay10\System\SCRReferenceApplication_machine.slx
+SIMULINK_MODEL_FILE E:\BaiduSyncdisk\code2\Probability-sharing\SceneCameraRay10\System\SCRReferenceApplication_machine.slx
+#RingCtrl0 -1
+#CheckBox0 0    
+*USE_ALT_DIR 0
+#CheckBox1 0    
+*USE_DIFF_SOLVERS 0
+#CheckBox3 0    
+*ALTERNATE_PATH C:\Users\Public\Documents\CarSim_Data\
+PARSFILE IO_Channels\I_Channels\Import_f7527dc5-0e5a-49e6-a28b-a2a412fecea0.par
+#BlueLink0 I/O Channels: Import`MPCtest1 input #1` ` , Import`Import_f7527dc5-0e5a-49e6-a28b-a2a412fecea0
+
+PARSFILE IO_Channels\O_Channels\Export_b8eedc0b-b23c-4e31-8109-6309f74d10ef.par
+#BlueLink1 I/O Channels: Export`MPCtest1 output #1` ` , Import/Export`Export_b8eedc0b-b23c-4e31-8109-6309f74d10ef
+
+
+LOG_ENTRY Used Dataset: Models: Simulink; { Example } MPCtest1
+#Library : Models: Simulink
+#DataSet : MPCtest1
+#Category: Example
+#FileID  : Simlink_b36ed14c-6b8d-4802-957e-0fdad522fc76
+#Product : CarSim 2020.0
+#VehCode 
+
+END

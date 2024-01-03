@@ -1,0 +1,55 @@
+PARSFILE
+#FullDataName Vehicle: Sprung Mass`B-Class, Hatchback Sprung Mass`CS B-Class
+#VehCode Rigid sprung mass
+#RingCtrl0 0
+#CheckBox2 1    
+X_LENGTH 2600
+Y_LENGTH 1500
+iaxle 2
+iside 1
+symbol_push_or_set <<hitch_x>> -3.4
+symbol_push_or_set <<hitch_y>> 0
+symbol_push_or_set <<hitch_z>> 0.45
+LX_H 3400
+H_H 450
+Y_H 0
+LX_AXLE 2600
+LX_CG_SU 1040
+M_SU 1111
+IXX_SU 288.0
+IYY_SU 2031.4
+IZZ_SU 2031.4
+IXZ_SU 0
+*RX 0.509
+*RY 1.352
+*RZ 1.352
+Y_CG_SU 0
+H_CG_SU 540
+IXY_SU 0
+IYZ_SU 0
+Z_LENGTH 1535
+Y_LENGTH 1695
+*HWC_LF 311
+*HWC_RF 311
+*HWC_LR 311
+*HWC_RR 311
+H_WC 311
+iside 2
+H_WC 311
+iaxle 1
+iside 1
+H_WC 311
+iside 2
+H_WC 311
+iaxle 2
+iside 1
+
+LOG_ENTRY Used Dataset: Vehicle: Sprung Mass; { CS B-Class } B-Class, Hatchback Sprung Mass
+#Library : Vehicle: Sprung Mass
+#DataSet : B-Class, Hatchback Sprung Mass
+#Category: CS B-Class
+#FileID  : SprMass_aedecd15-2c45-4337-ad5f-03353d7789bd
+#Product : CarSim 2020.0
+#VehCode Rigid sprung mass
+
+END

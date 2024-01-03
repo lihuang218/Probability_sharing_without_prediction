@@ -1,0 +1,31 @@
+PARSFILE
+#FullDataName I/O Channels: Write`All Outputs with Tire for Excel`CS 8.01Tire Tester
+OPT_ALL_WRITE 1
+
+#RingCtrl1 0
+#RingCtrl3 0
+#RingCtrl4 0
+
+#MiscYellow0
+#Number of Selected Channels: 0
+#ENDMYellow
+
+OPT_ALL_WRITE_CONVERT_CSV 0
+OPT_ALL_WRITE_CONVERT_MAT 0
+OPT_CONVERT_SUFFIX 
+OPT_FMT_CSV 0
+OPT_FMT_MAT 0
+
+#EMBEDDED_NOTES
+#This dataset is set up to export all output variables and save some Tire output variables in .CSV format.  The configuration file linked in the top right corner of this screen is used by the ERD File Utility found under the Tools menu.  Information about the ERD File Utility tool can be found under Help -> Reference Manuals -> ERD Converter.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: I/O Channels: Write; { CS 8.01Tire Tester } All Outputs with Tire for Excel
+#Library : I/O Channels: Write
+#DataSet : All Outputs with Tire for Excel
+#Category: CS 8.01Tire Tester
+#FileID  : Write_12d1c4b5-6516-4457-98d9-8beb4b02132a
+#Product : CarSim 2020.0
+#VehCode Write Channels
+
+END

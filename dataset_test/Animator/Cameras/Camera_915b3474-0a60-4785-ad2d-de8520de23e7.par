@@ -1,0 +1,41 @@
+PARSFILE
+#FullDataName Animator: Camera Setup`Rear View , Road Ref. (Frt. Facing)`Road Reference
+#RingCtrl1 0
+
+#CheckBox1 1    
+#CheckBox2 0    
+#CheckBox3 1    
+
+GHOST_COUNT 0
+SET_CAMERA_REFERENCE_FRAME Frame_7460f778-0fee-4653-8200-44d038f87d93
+PARSFILE Animator\Frames\Frame_7460f778-0fee-4653-8200-44d038f87d93.par
+#BlueLink0 Animator: Reference Frame`Camera Rear Point w/ Yaw` Road Tracking` , Reference frame for outside camera`Frame_7460f778-0fee-4653-8200-44d038f87d93
+
+SET_LOOKPOINT_REFERENCE_FRAME Frame_7460f778-0fee-4653-8200-44d038f87d93
+SET_LOOKPOINT_X 5
+SET_LOOKPOINT_Y 0
+SET_LOOKPOINT_Z 1
+SET_AZIMUTH 180
+SET_ELEVATION 3
+SET_DISTANCE 124
+SET_CAMERAMAN_NAME External camera
+*SET_LOOKPOINT_X 5
+*SET_LOOKPOINT_Y 0
+*SET_LOOKPOINT_Z 1
+*SET_AZIMUTH 180
+*SET_ELEVATION 3
+*SET_DISTANCE 124
+GHOST_COUNT 0
+FOG_SCALE 0.2
+SET_FIELD_OF_VIEW 9.9
+SUN_POSITION -1000 -1000 10000
+
+LOG_ENTRY Used Dataset: Animator: Camera Setup; { Road Reference } Rear View , Road Ref. (Frt. Facing)
+#Library : Animator: Camera Setup
+#DataSet : Rear View , Road Ref. (Frt. Facing)
+#Category: Road Reference
+#FileID  : Camera_915b3474-0a60-4785-ad2d-de8520de23e7
+#Product : CarSim 2020.0
+#VehCode Camera
+
+END

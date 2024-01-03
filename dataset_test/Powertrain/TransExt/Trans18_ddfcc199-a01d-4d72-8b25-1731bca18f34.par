@@ -1,0 +1,77 @@
+PARSFILE
+#FullDataName Powertrain: Transmission (18 Gears or CVT)`6-Speed Transmission`CS 8.01 Transmissions
+#RingCtrl0 6
+NGEARS 6
+#RingCtrl1 1
+OPT_SHIFT_INTERNAL 1
+#RingCtrl2 1
+OPT_TR_GEAR_INTERNAL 1
+#CheckBox0 0    
+R_GEAR_TR_REVERSE -3.168
+R_GEAR_TR(1) 3.538
+R_GEAR_TR(2) 2.06
+R_GEAR_TR(3) 1.404
+R_GEAR_TR(4) 1.00
+R_GEAR_TR(5) 0.713
+R_GEAR_TR(6) 0.582
+ITR_REVERSE 0.034
+ITR_NEUTRAL 0.034
+ITR(1) 0.037
+ITR(2) 0.034
+ITR(3) 0.042
+ITR(4) 0.04
+ITR(5) 0.04
+ITR(6) 0.04
+R_EFF_TR_F_REVERSE 0.9
+R_EFF_TR_F(1) 0.92
+R_EFF_TR_F(2) 0.92
+R_EFF_TR_F(3) 0.95
+R_EFF_TR_F(4) 0.95
+R_EFF_TR_F(5) 0.98
+R_EFF_TR_F(6) 0.99
+R_EFF_TR_R_REVERSE 0.9
+R_EFF_TR_R(1) 0.92
+R_EFF_TR_R(2) 0.92
+R_EFF_TR_R(3) 0.95
+R_EFF_TR_R(4) 0.95
+R_EFF_TR_R(5) 0.98
+R_EFF_TR_R(6) 0.99
+T_SHIFT 0.25
+
+
+igear 1
+PARSFILE Powertrain\Shift\Shift_24db3a46-d50e-4ba9-be5b-a9b0e8507e2a.par
+#BlueLink0 Powertrain: Shift Schedule`6-speed, 1-2 shift` 6-speed` , Shift schedule`Shift_24db3a46-d50e-4ba9-be5b-a9b0e8507e2a
+
+
+igear 2
+PARSFILE Powertrain\Shift\Shift_02186285-dc4e-401d-9a9a-0506d51bd0b8.par
+#BlueLink1 Powertrain: Shift Schedule`6-speed, 2-3 shift` 6-speed` , Shift schedule`Shift_02186285-dc4e-401d-9a9a-0506d51bd0b8
+
+
+igear 3
+PARSFILE Powertrain\Shift\Shift_36f65dda-a7e3-4f3d-861b-9d56734bca53.par
+#BlueLink2 Powertrain: Shift Schedule`6-speed, 3-4 shift` 6-speed` , Shift schedule`Shift_36f65dda-a7e3-4f3d-861b-9d56734bca53
+
+
+igear 4
+PARSFILE Powertrain\Shift\Shift_3447b1c9-ebc2-442e-b225-e7441eb83bcb.par
+#BlueLink3 Powertrain: Shift Schedule`6-speed, 4-5 shift` 6-speed` , Shift schedule`Shift_3447b1c9-ebc2-442e-b225-e7441eb83bcb
+
+
+igear 5
+PARSFILE Powertrain\Shift\Shift_e80ad83a-2579-4a6f-bb48-f3905cb56ab4.par
+#BlueLink4 Powertrain: Shift Schedule`6-speed, 5-6 shift` 6-speed` , Shift schedule`Shift_e80ad83a-2579-4a6f-bb48-f3905cb56ab4
+
+
+igear 6
+
+LOG_ENTRY Used Dataset: Powertrain: Transmission (18 Gears or CVT); { CS 8.01 Transmissions } 6-Speed Transmission
+#Library : Powertrain: Transmission (18 Gears or CVT)
+#DataSet : 6-Speed Transmission
+#Category: CS 8.01 Transmissions
+#FileID  : Trans18_ddfcc199-a01d-4d72-8b25-1731bca18f34
+#Product : CarSim 2020.0
+#VehCode Transmission
+
+END

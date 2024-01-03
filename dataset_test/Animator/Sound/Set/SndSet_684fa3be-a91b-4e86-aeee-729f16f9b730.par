@@ -1,0 +1,33 @@
+PARSFILE
+#FullDataName Animator: Sound Set`General Car Sounds`
+
+PARSFILE Animator\Sound\Sample\SndSmp_1fa7308b-e65c-46d4-b254-d3e72c59b26c.par
+#BlueLink0 Animator: Sound Sample`Gas Engine Sample, Coast` Engine Sounds` , Sample 1`SndSmp_1fa7308b-e65c-46d4-b254-d3e72c59b26c
+
+
+PARSFILE Animator\Sound\Sample\SndSmp_54bc0721-98aa-40ac-82d3-c350a760c923.par
+#BlueLink1 Animator: Sound Sample`Gas Engine Sample, Power` Engine Sounds` , Sample 2`SndSmp_54bc0721-98aa-40ac-82d3-c350a760c923
+
+
+PARSFILE Animator\Sound\Sample\SndSmp_ed30afa8-93e1-4129-bae7-cf6696ebe043.par
+#BlueLink2 Animator: Sound Sample`Wind Noise` Wind Noise` , Sample 3`SndSmp_ed30afa8-93e1-4129-bae7-cf6696ebe043
+
+
+
+
+
+
+
+
+
+
+
+LOG_ENTRY Used Dataset: Animator: Sound Set; General Car Sounds
+#Library : Animator: Sound Set
+#DataSet : General Car Sounds
+#Category: 
+#FileID  : SndSet_684fa3be-a91b-4e86-aeee-729f16f9b730
+#Product : CarSim 2020.0
+#VehCode Sound Set
+
+END

@@ -1,0 +1,36 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Partly Cloudy Sky (Normal Resolution)`Skies
+#MiscYellow3
+add_obj Animator\3D_shape_files_CS\scenery\partly_cloudy_sky\sky_normal_res.obj
+#ENDMYellow
+
+SET_COLOR 1 1 1
+SET_SCALE_X 15
+SET_SCALE_Y 15
+SET_SCALE_Z 15
+SET_OFFSET_X 0
+SET_OFFSET_Y 0
+SET_OFFSET_Z -50
+#CheckBox0 1    
+set_lighting off
+#CheckBox1 1    
+set_fogging off
+#CheckBox3 0    
+#CheckBox4 0    
+
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_1839153f-6773-4faf-b7a6-d89986a14abf.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_1839153f-6773-4faf-b7a6-d89986a14abf
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_6aabd900-c417-4341-be70-f4fec4ed68bc.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Skies } Partly Cloudy Sky (Normal Resolution)
+#Library : Animator: Shape File Link
+#DataSet : Partly Cloudy Sky (Normal Resolution)
+#Category: Skies
+#FileID  : Shape_6aabd900-c417-4341-be70-f4fec4ed68bc
+#Product : CarSim 2020.0
+#VehCode Shape File
+
+END

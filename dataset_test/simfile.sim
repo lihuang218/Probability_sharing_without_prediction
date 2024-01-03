@@ -1,0 +1,27 @@
+SIMFILE
+
+SET_MACRO $(ROOT_FILE_NAME)$ Run_bf90246f-fadd-4e3a-a352-50ccf8adae1d
+SET_MACRO $(OUTPUT_PATH)$ E:\BaiduSyncdisk\code2\Probability-sharing\dataset_test\Results
+SET_MACRO $(WORK_DIR)$ E:\BaiduSyncdisk\code2\Probability-sharing\dataset_test\
+SET_MACRO $(OUTPUT_FILE_PREFIX)$ $(WORK_DIR)$Results\Run_bf90246f-fadd-4e3a-a352-50ccf8adae1d\LastRun
+
+FILEBASE $(OUTPUT_FILE_PREFIX)$
+INPUT $(WORK_DIR)$Results\$(ROOT_FILE_NAME)$\Run_all.par
+INPUTARCHIVE $(OUTPUT_FILE_PREFIX)$_all.par
+ECHO $(OUTPUT_FILE_PREFIX)$_echo.par
+FINAL $(OUTPUT_FILE_PREFIX)$_end.par
+LOGFILE $(OUTPUT_FILE_PREFIX)$_log.txt
+ERDFILE $(OUTPUT_FILE_PREFIX)$.vs
+PROGDIR F:\CarSim2020.0_Prog\
+DATADIR E:\BaiduSyncdisk\code2\Probability-sharing\dataset_test\
+GUI_REFRESH_V CarSim_RefreshEvent_5116
+RESOURCEDIR F:\CarSim2020.0_Prog\\Resources\
+PRODUCT_ID CarSim
+PRODUCT_VER 2020.0
+ANIFILE E:\BaiduSyncdisk\code2\Probability-sharing\dataset_test\runs\animator.par
+VEHICLE_CODE i_i
+EXT_MODEL_STEP 0.00050000
+PORTS_IMP 1,4
+PORTS_EXP 1,8
+
+END

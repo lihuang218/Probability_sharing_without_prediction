@@ -1,0 +1,37 @@
+PARSFILE
+#FullDataName Plot: Setup`Bump Plot (Fz vs. X) L1`Tire Forces
+
+ADD_ENTITY Plot
+
+#BlueLink1 ` ` , Discontinued` , Discontinued`
+
+#CheckBox1 0    
+
+
+#MiscYellow0
+PLOTCHANNELS Fz_wc_L1, X_L1
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Bump Plot (Fz vs. X) L1
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Tire Forces } Bump Plot (Fz vs. X) L1
+#Library : Plot: Setup
+#DataSet : Bump Plot (Fz vs. X) L1
+#Category: Tire Forces
+#FileID  : Plot_597ca379-eaab-4ed3-9e3d-974b2817a93e
+#Product : CarSim 2020.0
+#VehCode Plot Setup
+
+END

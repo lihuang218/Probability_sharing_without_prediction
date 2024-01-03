@@ -1,0 +1,36 @@
+PARSFILE
+#FullDataName Animator: Sound Sample`Lateral Tire Sound`Tire Sounds
+
+ADD_3D_SOUND Animator\Audio\Tire\Generic-Tire-01_Skid-01.wav
+#CheckBox0 1    
+LOOP_SOUND on
+
+#RingCtrl0 Default
+SOUND_AUTO_START Default
+
+SOUND_VOL_MULT 2.0
+SOUND_VOL_MIN 0.0
+SOUND_VOL_MAX 1.0
+SOUND_FREQ_MULT 1.0
+SOUND_FREQ_MIN 0.01
+SOUND_FREQ_MAX 1.0
+
+PARSFILE Animator\Sound\Modifier\SndMod_e423430b-b6dc-4549-ad59-4f11ff5537f2.par
+#BlueLink0 Animator: Sound Modifier`Tire Skid - Freq` Tire Sound Modifiers` , Playback Modification 1`SndMod_e423430b-b6dc-4549-ad59-4f11ff5537f2
+
+PARSFILE Animator\Sound\Modifier\SndMod_77fa2c6a-c8ce-4d28-965c-dcd5cb94ef5e.par
+#BlueLink1 Animator: Sound Modifier`Tire Skid - Volume (Force)` Tire Sound Modifiers` , Playback Modification 2`SndMod_77fa2c6a-c8ce-4d28-965c-dcd5cb94ef5e
+
+PARSFILE Animator\Sound\Modifier\SndMod_a9134479-8598-4429-a4f8-0c8d9529f625.par
+#BlueLink2 Animator: Sound Modifier`Tire Skid - Volume (Slip)` Tire Sound Modifiers` , Playback Modification 3`SndMod_a9134479-8598-4429-a4f8-0c8d9529f625
+
+
+LOG_ENTRY Used Dataset: Animator: Sound Sample; { Tire Sounds } Lateral Tire Sound
+#Library : Animator: Sound Sample
+#DataSet : Lateral Tire Sound
+#Category: Tire Sounds
+#FileID  : SndSmp_e701e5cf-0eae-4e2d-a5a3-e3dadd6da871
+#Product : CarSim 2020.0
+#VehCode Sound Sample
+
+END

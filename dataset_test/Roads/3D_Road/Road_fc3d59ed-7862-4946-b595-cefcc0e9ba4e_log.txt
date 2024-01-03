@@ -1,0 +1,11 @@
+Run made by VS Road Calculator at 18:33 on October 20, 2023.
+Utility to calculate road and path coordinates for visualization
+Started with simfile: Roads\3D_Road\simfile_road
+
+Include PARSFILE "Roads\3D_Road\Road_fc3d59ed-7862-4946-b595-cefcc0e9ba4e.par"
+ No Data <Empty (You should edit or delete this)>
+Used Dataset: Road: 3D Surface (All Properties); { Empty (You should edit or delete this) } No Data
+
+Time to read input = 0.001
+
+Run started: VS output file = Roads\3D_Road\Road_fc3d59ed-7862-4946-b595-cefcc0e9ba4e.vsb

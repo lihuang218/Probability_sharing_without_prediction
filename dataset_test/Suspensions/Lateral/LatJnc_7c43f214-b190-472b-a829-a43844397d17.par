@@ -1,0 +1,59 @@
+PARSFILE
+#FullDataName Suspension: Lateral Movement Due to Jounce`Front Strut - Lateral Movement`Strut
+#CheckBox0 0    
+
+#RingCtrl0 SPLINE
+#RingCtrl1 CONSTANT
+#RingCtrl2 ADD
+SUSP_LAT_COMBINE ADD
+#DiagramOne0
+SUSP_LAT_TABLE SPLINE
+-70, 2.81522
+-60, 1.82386
+-50, 1.03219
+-40, 0.437944
+-30, 0.039162
+-20, -0.165848
+-10, -0.178513
+0, 0
+10, 0.368777
+20, 0.927155
+30, 1.67473
+40, 2.61133
+50, 3.73709
+60, 5.05237
+70, 6.55783
+ENDTABLE
+SUSP_Y_AXLE_ROLL_COMBINE ADD ! in case this is for a solid axle
+#DiagramOne0
+SUSP_LAT_AXLE_JOUNCE_TABLE SPLINE
+-70, 2.81522
+-60, 1.82386
+-50, 1.03219
+-40, 0.437944
+-30, 0.039162
+-20, -0.165848
+-10, -0.178513
+0, 0
+10, 0.368777
+20, 0.927155
+30, 1.67473
+40, 2.61133
+50, 3.73709
+60, 5.05237
+70, 6.55783
+ENDTABLE
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+
+
+LOG_ENTRY Used Dataset: Suspension: Lateral Movement Due to Jounce; { Strut } Front Strut - Lateral Movement
+#Library : Suspension: Lateral Movement Due to Jounce
+#DataSet : Front Strut - Lateral Movement
+#Category: Strut
+#FileID  : LatJnc_7c43f214-b190-472b-a829-a43844397d17
+#Product : CarSim 2020.0
+#VehCode Lateral Movement
+
+END

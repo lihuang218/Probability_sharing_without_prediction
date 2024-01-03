@@ -1,0 +1,24 @@
+PARSFILE
+#FullDataName I/O Channels: Import`MPCtest1 input`
+#RingCtrl0 0
+#RingCtrl1 1
+*README_FILE Programs\solvers\ReadMe\f_i_i__s_imports_tab.txt
+
+#MiscYellow0
+IMP_SPEED Replace 18! 1
+IMP_STEER_L1 Add 0.0! 0
+IMP_STEER_R1 Add 0.0! 0
+IMP_STEER_L2 Add 0.0! 0
+IMP_STEER_R2 Add 0.0! 0
+#ENDMYellow
+
+
+LOG_ENTRY Used Dataset: I/O Channels: Import; MPCtest1 input
+#Library : I/O Channels: Import
+#DataSet : MPCtest1 input
+#Category: 
+#FileID  : Import_bff2aa31-4344-46d3-855d-551bddf7f591
+#Product : CarSim 2020.0
+#VehCode Import Channels
+
+END

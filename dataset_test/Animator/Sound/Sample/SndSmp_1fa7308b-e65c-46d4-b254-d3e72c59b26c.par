@@ -1,0 +1,36 @@
+PARSFILE
+#FullDataName Animator: Sound Sample`Gas Engine Sample, Coast`Engine Sounds
+
+ADD_3D_SOUND Animator\Audio\Engine\Generic-Engine-02_L4_2.4L_0.0-Load_03-Mid-RPM.WAV
+#CheckBox0 1    
+LOOP_SOUND on
+
+#RingCtrl0 Default
+SOUND_AUTO_START Default
+
+SOUND_VOL_MULT 1.0
+SOUND_VOL_MIN 0.01
+SOUND_VOL_MAX 9.0
+SOUND_FREQ_MULT 1.0
+SOUND_FREQ_MIN 0.01
+SOUND_FREQ_MAX 8.0
+
+PARSFILE Animator\Sound\Modifier\SndMod_7005a495-5c0b-4ff1-9ac3-2c027550425b.par
+#BlueLink0 Animator: Sound Modifier`Gas Engine Vol. 1, Throttle` Engine Sound Modifiers` , Playback Modification 1`SndMod_7005a495-5c0b-4ff1-9ac3-2c027550425b
+
+PARSFILE Animator\Sound\Modifier\SndMod_7e3d27f0-1320-42a0-8605-b68b2ab8ef4f.par
+#BlueLink1 Animator: Sound Modifier`Gas Engine, RPM` Engine Sound Modifiers` , Playback Modification 2`SndMod_7e3d27f0-1320-42a0-8605-b68b2ab8ef4f
+
+PARSFILE Animator\Sound\Modifier\SndMod_4da40e43-95d0-462b-b22b-e8261ed66139.par
+#BlueLink2 Animator: Sound Modifier`Gas Engine Freq 1` Engine Sound Modifiers` , Playback Modification 3`SndMod_4da40e43-95d0-462b-b22b-e8261ed66139
+
+
+LOG_ENTRY Used Dataset: Animator: Sound Sample; { Engine Sounds } Gas Engine Sample, Coast
+#Library : Animator: Sound Sample
+#DataSet : Gas Engine Sample, Coast
+#Category: Engine Sounds
+#FileID  : SndSmp_1fa7308b-e65c-46d4-b254-d3e72c59b26c
+#Product : CarSim 2020.0
+#VehCode Sound Sample
+
+END

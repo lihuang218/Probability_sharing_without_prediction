@@ -1,0 +1,87 @@
+PARSFILE
+#FullDataName Animator: Vehicles and Sensor Targets`B-Class, Hatchback`B-Class Vehicles
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 1    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox6 0    
+#CheckBox8 0    
+
+OBJ_X_LENGTH 2600
+OBJ_Y_LENGTH 1695
+OBJ_Z_LENGTH 1535
+*DZ_V 100
+*LAT_WC 1600
+*LAT_WC_2 1600
+*HWC 300
+*WHEEL_RATIO 1
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\Vehicles\AniVeh_4a7cba8e-dbdf-44eb-8d11-07b360cfbf24.png
+DZ_OBJECT 0
+WRITE_ADD_REFERENCE_FRAME_OBJECT
+TIRE_ANI_PARSFILE Animator\STL\Shape_59fcf7c1-9fd5-467e-9604-88142dabe103.par
+SET_SCALE_X 1
+SET_SCALE_Y 1
+SET_SCALE_Z 1
+SET_OFFSET_X 0
+SET_OFFSET_Y 0.8
+SET_OFFSET_Z 0.285
+TIRE_ANI_PARSFILE Animator\STL\Shape_59fcf7c1-9fd5-467e-9604-88142dabe103.par
+SET_SCALE_X 1
+SET_SCALE_Y 1
+SET_SCALE_Z 1
+SET_ANGLE_X 180
+SET_OFFSET_X 0
+SET_OFFSET_Y -0.8
+SET_OFFSET_Z 0.285
+TIRE_ANI_PARSFILE Animator\STL\Shape_59fcf7c1-9fd5-467e-9604-88142dabe103.par
+SET_SCALE_X 1
+SET_SCALE_Y 1
+SET_SCALE_Z 1
+SET_OFFSET_X -2.6
+SET_OFFSET_Y 0.8
+SET_OFFSET_Z 0.285
+TIRE_ANI_PARSFILE Animator\STL\Shape_59fcf7c1-9fd5-467e-9604-88142dabe103.par
+SET_SCALE_X 1
+SET_SCALE_Y 1
+SET_SCALE_Z 1
+SET_ANGLE_X 180
+SET_OFFSET_X -2.6
+SET_OFFSET_Y -0.8
+SET_OFFSET_Z 0.285
+DZ_OBJECT 0.1
+WRITE_ADD_REFERENCE_FRAME_OBJECT
+PARSFILE Animator\STL_Groups\ShpGrp_7db15d2f-8b6d-4a8d-89ff-910b6dd1e937.par
+#BlueLink1 Animator: Shape Assembly`B-Class, Hatchback` CS B-Class` , Vehicle Body`ShpGrp_7db15d2f-8b6d-4a8d-89ff-910b6dd1e937
+
+WRITE_REFERENCE_FRAME_SIZE
+WRITE_ADD_REFERENCE_FRAME_BRAKES
+PARSFILE Animator\STL\Shape_3c31967a-ad7c-4a06-b1e8-bb5faaf46605.par
+#BlueLink3 Animator: Shape File Link`Hatchback: Brake Lights` CS Hatchback` , Brake Lights`Shape_3c31967a-ad7c-4a06-b1e8-bb5faaf46605
+
+set_lighting on
+set_fogging on
+WRITE_REFERENCE_FRAME_SIZE
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_f21ad6c3-5653-408b-8569-d3fa9e018905.par
+#BlueLink5 Animator: Camera Setup`Vehicle Pictures` Shape Preview` , Video Camera`Camera_f21ad6c3-5653-408b-8569-d3fa9e018905
+
+EXPORT_PARSFILE Animator\STL\Shape_59fcf7c1-9fd5-467e-9604-88142dabe103.par
+#BlueLink2 Animator: Shape File Link`Blurred Tire` Tires` , Tire for traffic vehicle`Shape_59fcf7c1-9fd5-467e-9604-88142dabe103
+
+
+#EMBEDDED_NOTES
+#The Animator: Vehicles and Other Moving Objects screen is used to define animation shapes to be used with the animator.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Animator: Vehicles and Sensor Targets; { B-Class Vehicles } B-Class, Hatchback
+#Library : Animator: Vehicles and Sensor Targets
+#DataSet : B-Class, Hatchback
+#Category: B-Class Vehicles
+#FileID  : AniVeh_4a7cba8e-dbdf-44eb-8d11-07b360cfbf24
+#Product : CarSim 2020.0
+#VehCode Vehicle Shape
+
+END

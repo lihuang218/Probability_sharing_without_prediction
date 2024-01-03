@@ -1,0 +1,46 @@
+PARSFILE
+#FullDataName Animator: Shape Assembly`Fy Double (Tail Origin)`mpctest
+*COLOR 1 1 0
+*OFFSET_X 0
+*OFFSET_Y 0.5
+*OFFSET_Z 0.02
+*TRANSPARENCY 0.3
+#CheckBox0 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 0    
+
+#RingCtrl1 1
+#RingCtrl2 2
+*IMAGE_TYPE DEFAULT
+PARSFILE Animator\STL\Shape_2c94137a-c900-4d4b-8394-2a95ace055a5.par
+#BlueLink0 Animator: Shape File Link`Flat Arrow for Y (Tail Origin, Top View)` mpctest` , Shape File`Shape_2c94137a-c900-4d4b-8394-2a95ace055a5
+
+set_transparency 0.3
+set_lighting off
+set_offset_x 0
+set_offset_y 0.5
+set_offset_z 0.02
+PARSFILE Animator\STL\Shape_98161065-43ed-464d-9e6c-516f671ae8a2.par
+#BlueLink1 Animator: Shape File Link`Flat Arrow for Y (Tail Origin, Front View)` mpctest` , Shape File`Shape_98161065-43ed-464d-9e6c-516f671ae8a2
+
+set_transparency 0.3
+set_lighting off
+set_offset_x 0
+set_offset_y 0.5
+set_offset_z 0.02
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_2c5db12e-3cc8-498d-a310-8d4023f7b804.par
+#BlueLink17 Animator: Camera Setup`Shape Preview (Side)` mpctest` , Video Camera`Camera_2c5db12e-3cc8-498d-a310-8d4023f7b804
+
+
+LOG_ENTRY Used Dataset: Animator: Shape Assembly; { mpctest } Fy Double (Tail Origin)
+#Library : Animator: Shape Assembly
+#DataSet : Fy Double (Tail Origin)
+#Category: mpctest
+#FileID  : ShpGrp_d411452d-68da-4284-b45d-0d0acb0bf75f
+#Product : CarSim 2020.0
+#VehCode Shape Assembly
+
+END

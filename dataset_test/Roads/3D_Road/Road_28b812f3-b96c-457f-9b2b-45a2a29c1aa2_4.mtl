@@ -1,0 +1,9 @@
+newmtl Slate (White)
+  d 1
+  Ns 100.0
+  illum 2
+  Kd 1 1 1
+  Ks 1 1 1
+  Ka 1 1 1
+  map_Kd Animator/Deprecated_Assets/Roads/materials/slate_white.tga
+

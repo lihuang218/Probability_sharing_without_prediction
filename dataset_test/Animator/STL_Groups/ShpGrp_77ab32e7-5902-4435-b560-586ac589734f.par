@@ -1,0 +1,41 @@
+PARSFILE
+#FullDataName Animator: Shape Assembly`Small Car`Tires
+*X_REF_LENGTH 281
+*Y_REF_LENGTH 145
+*Z_REF_LENGTH 281
+#CheckBox0 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 1    
+
+#RingCtrl1 2
+#RingCtrl2 2
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL_Groups\ShpGrp_77ab32e7-5902-4435-b560-586ac589734f.png
+PARSFILE Animator\STL\Shape_3e5ca483-c893-487a-b6dc-b18b1040e7ae.par
+#BlueLink0 Animator: Shape File Link`Small Car Tire` Tires` , Shape File`Shape_3e5ca483-c893-487a-b6dc-b18b1040e7ae
+
+PARSFILE Animator\STL\Shape_bfb56701-2774-46a4-b6c2-5d4d64555fe0.par
+#BlueLink1 Animator: Shape File Link`Small Car Wheel` Tires` , Shape File`Shape_bfb56701-2774-46a4-b6c2-5d4d64555fe0
+
+PARSFILE Animator\STL\Shape_c17b0443-44cf-42aa-bf02-934cfc9afbff.par
+#BlueLink2 Animator: Shape File Link`Small Car Stripe` Tires` , Shape File`Shape_c17b0443-44cf-42aa-bf02-934cfc9afbff
+
+x_ref_length 281
+y_ref_length 145
+z_ref_length 281
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_1839153f-6773-4faf-b7a6-d89986a14abf.par
+#BlueLink17 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_1839153f-6773-4faf-b7a6-d89986a14abf
+
+
+LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Tires } Small Car
+#Library : Animator: Shape Assembly
+#DataSet : Small Car
+#Category: Tires
+#FileID  : ShpGrp_77ab32e7-5902-4435-b560-586ac589734f
+#Product : CarSim 2020.0
+#VehCode Shape Assembly
+
+END

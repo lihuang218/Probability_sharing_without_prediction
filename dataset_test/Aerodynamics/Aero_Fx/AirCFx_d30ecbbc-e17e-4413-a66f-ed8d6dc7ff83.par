@@ -1,0 +1,68 @@
+PARSFILE
+#FullDataName Aerodynamics: Fx (Drag) Coef. vs. Aero Slip`CFx`
+#CheckBox0 0    
+
+#RingCtrl0 LINEAR_FLAT
+#RadioCtrl0 0    
+
+#DiagramOne0
+FX_AERO_SHAPING_TABLE LINEAR_FLAT
+-90, 0
+-84, 0.0112
+-78, 0.0435
+-72, 0.094
+-66, 0.1575
+-60, 0.2279
+-54, 0.2984
+-48, 0.3619
+-42, 0.4124
+-36, 0.4447
+-30, 0.4559
+-20, 0.4559
+-18, 0.434468
+-16, 0.415292
+-14, 0.398372
+-12, 0.383708
+-10, 0.3713
+-8, 0.361148
+-6, 0.353252
+-4, 0.347612
+-2, 0.344228
+0, 0.3431
+2, 0.344228
+4, 0.347612
+6, 0.353252
+8, 0.361148
+10, 0.3713
+12, 0.383708
+14, 0.398372
+16, 0.415292
+18, 0.434468
+20, 0.4559
+30, 0.4559
+36, 0.4447
+42, 0.4124
+48, 0.3619
+54, 0.2984
+60, 0.228
+66, 0.1575
+72, 0.094
+78, 0.0435
+84, 0.0112
+90, 0
+ENDTABLE
+
+
+#EMBEDDED_NOTES
+#Example Drag Coefficient data.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Aerodynamics: Fx (Drag) Coef. vs. Aero Slip; CFx
+#Library : Aerodynamics: Fx (Drag) Coef. vs. Aero Slip
+#DataSet : CFx
+#Category: 
+#FileID  : AirCFx_d30ecbbc-e17e-4413-a66f-ed8d6dc7ff83
+#Product : CarSim 2020.0
+#VehCode Drag vs. Aero Slip
+
+END

@@ -1,0 +1,49 @@
+PARSFILE
+#FullDataName Aerodynamics: Basic`B-Class, Hatchback Aero`CS B-Class
+#CheckBox0 0    
+
+#RingCtrl0 2
+#RingCtrl1 2
+#RingCtrl2 2
+#RingCtrl3 2
+#RingCtrl4 2
+#RingCtrl5 2
+PARSFILE Aerodynamics\Aero_Fx\AirCFx_d30ecbbc-e17e-4413-a66f-ed8d6dc7ff83.par
+#BlueLink0 Aerodynamics: Fx (Drag) Coef. vs. Aero Slip`CFx` ` , CFx`AirCFx_d30ecbbc-e17e-4413-a66f-ed8d6dc7ff83
+
+PARSFILE Aerodynamics\Aero_Fy\AirCFy_d82822e0-b68b-4403-ae6f-41608978dac8.par
+#BlueLink1 Aerodynamics: Fy (Side Force) Coef. vs. Aero Slip`CFy` ` , CFy`AirCFy_d82822e0-b68b-4403-ae6f-41608978dac8
+
+PARSFILE Aerodynamics\Aero_Fz\AirCFz_c6653b63-dcaa-42ef-9b01-c48dfd5e07b5.par
+#BlueLink2 Aerodynamics: Fz (Lift) Coef. vs. Aero Slip`CFz` ` , CFz`AirCFz_c6653b63-dcaa-42ef-9b01-c48dfd5e07b5
+
+PARSFILE Aerodynamics\Aero_Mx\AirCMx_a3893628-de74-4000-b54c-baefa95edc86.par
+#BlueLink3 Aerodynamics: Mx (Roll Moment) Coef. vs. Aero Slip`CMx` ` , CMx`AirCMx_a3893628-de74-4000-b54c-baefa95edc86
+
+PARSFILE Aerodynamics\Aero_My\AirCMy_4ae5b9fc-5723-4eec-9698-f47ed7b6eaac.par
+#BlueLink4 Aerodynamics: My (Pitch Moment) Coef. vs. Aero Slip`CMy` ` , CMy`AirCMy_4ae5b9fc-5723-4eec-9698-f47ed7b6eaac
+
+PARSFILE Aerodynamics\Aero_Mz\AirCMz_7f4e4518-7009-4666-bbf0-f7bead86a2de.par
+#BlueLink5 Aerodynamics: Mz (Yaw Moment) Coef. vs. Aero Slip`CMz` ` , CMz`AirCMz_7f4e4518-7009-4666-bbf0-f7bead86a2de
+
+X_REF_AERO -1000
+Y_REF_AERO 0
+H_REF_AERO 0
+L_REF_AERO 2370
+AREA_AERO 1.6
+D_AIR 1.206
+
+#EMBEDDED_NOTES
+#According to SAE convention, the reference point is located at the midpoint of the wheelbase, the midpoint of the track, at ground level., and the reference length is equal to the wheelbase.
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Aerodynamics: Basic; { CS B-Class } B-Class, Hatchback Aero
+#Library : Aerodynamics: Basic
+#DataSet : B-Class, Hatchback Aero
+#Category: CS B-Class
+#FileID  : Aero_e741c50c-f322-48be-bc47-25330faac9d2
+#Product : CarSim 2020.0
+#VehCode Aerodynamics
+
+END

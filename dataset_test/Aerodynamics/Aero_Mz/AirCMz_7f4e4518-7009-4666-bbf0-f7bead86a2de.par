@@ -1,0 +1,49 @@
+PARSFILE
+#FullDataName Aerodynamics: Mz (Yaw Moment) Coef. vs. Aero Slip`CMz`
+#CheckBox0 0    
+
+#RingCtrl0 LINEAR_FLAT
+#RadioCtrl0 0    
+
+#DiagramOne0
+MZ_AERO_SHAPING_TABLE LINEAR_FLAT
+-90, 0
+-84, -0.0045
+-78, -0.0175
+-72, -0.0378
+-66, -0.0634
+-60, -0.0918
+-54, -0.1202
+-48, -0.1458
+-42, -0.1661
+-36, -0.1791
+-30, -0.1836
+-20, -0.1836
+20, 0.1836
+30, 0.1836
+36, 0.1791
+42, 0.1661
+48, 0.1458
+54, 0.1202
+60, 0.0918
+66, 0.0634
+72, 0.0378
+78, 0.0175
+84, 0.0045
+90, 0
+ENDTABLE
+
+
+#EMBEDDED_NOTES
+#NOTE: In earlier versions of CarSim 7.01b and earlier, the CMz dataset data had incorrect sign data and has been replaced by this dataset.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Aerodynamics: Mz (Yaw Moment) Coef. vs. Aero Slip; CMz
+#Library : Aerodynamics: Mz (Yaw Moment) Coef. vs. Aero Slip
+#DataSet : CMz
+#Category: 
+#FileID  : AirCMz_7f4e4518-7009-4666-bbf0-f7bead86a2de
+#Product : CarSim 2020.0
+#VehCode Mz vs. Aero Slip
+
+END

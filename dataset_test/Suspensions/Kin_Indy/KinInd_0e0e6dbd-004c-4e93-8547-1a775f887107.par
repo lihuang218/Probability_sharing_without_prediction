@@ -1,0 +1,94 @@
+PARSFILE
+#FullDataName Suspension: Independent System Kinematics`B-Class, Hatchback - Front Suspension`CS B-Class
+iside 1
+#RingCtrl0 1
+OPT_JNC_DESIGN 1
+#RingCtrl1 2
+#RingCtrl2 2
+#RingCtrl3 2
+#RingCtrl4 2
+#RingCtrl5 2
+#RingCtrl6 2
+#RingCtrl7 2
+#RingCtrl8 2
+#RingCtrl9 2
+#RingCtrl10 2
+#CheckBox0 0    
+#CheckBox1 1    
+#CheckBox2 0    
+
+R_US_STR 0.8
+L_TRACK 1481
+Y_CL_SUSP 0
+M_US 60
+*IW_L 0.6
+*IW_R 0.6
+*JNC_DESIGN_L 0
+*JNC_DESIGN_R 0
+*TOE_L 0
+*TOE_R 0
+*CAMBER_L 0
+*CAMBER_R 0
+*M_US_IND_L 6
+*M_US_IND_R 6
+*M_US_STR_L 24
+*M_US_STR_R 24
+PARSFILE Suspensions\Dive\Dive_4e9ebd11-b1ad-4eed-ba4f-564464942e31.par
+#BlueLink0 Suspension: Dive Angle (Caster Change)`Front Strut - Front Dive Angle` Strut` , Left wheel dive (caster change)`Dive_4e9ebd11-b1ad-4eed-ba4f-564464942e31
+
+PARSFILE Suspensions\Longitudinal\SusX_a39785c7-4867-4aae-bcf8-af7054bbcec8.par
+#BlueLink1 Suspension: Longitudinal Movement`Front Strut -  Longitudinal Movement` Strut` , Left wheel X`SusX_a39785c7-4867-4aae-bcf8-af7054bbcec8
+
+PARSFILE Suspensions\Camber\Camber_456f5d34-1d93-437d-8374-b60593121837.par
+#BlueLink2 Suspension: Camber Angle`Front Strut - Camber` Strut` , Left wheel camber`Camber_456f5d34-1d93-437d-8374-b60593121837
+
+PARSFILE Suspensions\Lateral\LatJnc_7c43f214-b190-472b-a829-a43844397d17.par
+#BlueLink3 Suspension: Lateral Movement Due to Jounce`Front Strut - Lateral Movement` Strut` , Left wheel lateral (-Y)`LatJnc_7c43f214-b190-472b-a829-a43844397d17
+
+PARSFILE Suspensions\Toe\Toe_8fd8ae21-524d-44b3-a681-510d7cccb4c9.par
+#BlueLink4 Suspension: Toe Angle`Front Strut - Toe Change` Strut` , Left wheel toe`Toe_8fd8ae21-524d-44b3-a681-510d7cccb4c9
+
+M_US_IND 6
+M_US_STR 24
+IW 0.6
+JNC_DESIGN 0
+A_TOE 0
+A_CAMBER 0
+
+iside 2
+PARSFILE Suspensions\Dive\Dive_4e9ebd11-b1ad-4eed-ba4f-564464942e31.par
+#BlueLink5 Suspension: Dive Angle (Caster Change)`Front Strut - Front Dive Angle` Strut` , Right wheel dive (caster change)`Dive_4e9ebd11-b1ad-4eed-ba4f-564464942e31
+
+PARSFILE Suspensions\Longitudinal\SusX_a39785c7-4867-4aae-bcf8-af7054bbcec8.par
+#BlueLink6 Suspension: Longitudinal Movement`Front Strut -  Longitudinal Movement` Strut` , Right wheel X`SusX_a39785c7-4867-4aae-bcf8-af7054bbcec8
+
+PARSFILE Suspensions\Camber\Camber_456f5d34-1d93-437d-8374-b60593121837.par
+#BlueLink7 Suspension: Camber Angle`Front Strut - Camber` Strut` , Right wheel camber`Camber_456f5d34-1d93-437d-8374-b60593121837
+
+PARSFILE Suspensions\Lateral\LatJnc_7c43f214-b190-472b-a829-a43844397d17.par
+#BlueLink8 Suspension: Lateral Movement Due to Jounce`Front Strut - Lateral Movement` Strut` , Right wheel lateral (+Y)`LatJnc_7c43f214-b190-472b-a829-a43844397d17
+
+PARSFILE Suspensions\Toe\Toe_8fd8ae21-524d-44b3-a681-510d7cccb4c9.par
+#BlueLink9 Suspension: Toe Angle`Front Strut - Toe Change` Strut` , Right wheel toe`Toe_8fd8ae21-524d-44b3-a681-510d7cccb4c9
+
+M_US_IND 6
+M_US_STR 24
+IW 0.6
+JNC_DESIGN 0
+A_TOE 0
+A_CAMBER 0
+
+#EMBEDDED_NOTES
+#Generic front strut type suspension geometry created with SuspensionSim.
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Suspension: Independent System Kinematics; { CS B-Class } B-Class, Hatchback - Front Suspension
+#Library : Suspension: Independent System Kinematics
+#DataSet : B-Class, Hatchback - Front Suspension
+#Category: CS B-Class
+#FileID  : KinInd_0e0e6dbd-004c-4e93-8547-1a775f887107
+#Product : CarSim 2020.0
+#VehCode Independent
+
+END

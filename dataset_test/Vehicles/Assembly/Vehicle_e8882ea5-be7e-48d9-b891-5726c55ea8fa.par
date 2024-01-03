@@ -1,0 +1,102 @@
+PARSFILE
+#FullDataName Vehicle: Assembly`B-Class, Hatchback #1`CS B-Class
+#VehCode Ind_Ind
+#CheckBox0 0    
+#CheckBox1 1    
+#CheckBox2 1    
+INSTALL_SPEED_CONTROLLER
+
+#RingCtrl0 1
+OPT_PT 1
+#RingCtrl1 1
+#RingCtrl2 1
+#RingCtrl3 2
+PARSFILE Steering\System2\StrSys2_17940e2a-cbbf-4535-adbf-ed25ef8b100a.par
+#BlueLink7 Steering`B-Class, Hatchback: Power, R&P` CS B-Class` , Steering System`StrSys2_17940e2a-cbbf-4535-adbf-ed25ef8b100a
+
+
+* Front components
+iaxle 1
+symbol_push  <<axle>> 1
+PARSFILE Suspensions\Kin_Indy\KinInd_0e0e6dbd-004c-4e93-8547-1a775f887107.par
+#BlueLink19 Suspension: Independent System Kinematics`B-Class, Hatchback - Front Suspension` CS B-Class` , Kinematics`KinInd_0e0e6dbd-004c-4e93-8547-1a775f887107
+
+PARSFILE Suspensions\Compliance\CmpInd_7579dcf8-0332-4e23-9364-4bd4aec396a2.par
+#BlueLink16 Suspension: Independent Compliance, Springs, and Dampers`B-Class, Hatchback - Front Comp.` CS B-Class` , Compliance`CmpInd_7579dcf8-0332-4e23-9364-4bd4aec396a2
+
+
+* LF tire
+iside 1
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> L<<axle>>
+PARSFILE Tires\Tire\Tire_31d0d6dd-634b-436b-b451-8fdd1a3a7214.par
+#BlueLink9 Tire`185/65 R15` ` , Left-Front Tire`Tire_31d0d6dd-634b-436b-b451-8fdd1a3a7214
+
+
+* RF tire
+iside 2
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> R<<axle>>
+PARSFILE Tires\Tire\Tire_31d0d6dd-634b-436b-b451-8fdd1a3a7214.par
+#BlueLink10 Tire`185/65 R15` ` , Tire`Tire_31d0d6dd-634b-436b-b451-8fdd1a3a7214
+
+* Rear components
+iaxle 2
+symbol_add  <<axle>> 1
+PARSFILE Suspensions\Kin_Indy\KinInd_6fc0135e-cc5b-4af0-bd84-2bb961f1b462.par
+#BlueLink20 Suspension: Independent System Kinematics`B-Class, Hatchback - Rear Suspension` CS B-Class` , Kinematics`KinInd_6fc0135e-cc5b-4af0-bd84-2bb961f1b462
+
+PARSFILE Suspensions\Compliance\CmpInd_8b729d25-365c-425c-a248-a7478fb27669.par
+#BlueLink17 Suspension: Independent Compliance, Springs, and Dampers`B-Class, Hatchback - Rear Comp.` CS B-Class` , Compliance`CmpInd_8b729d25-365c-425c-a248-a7478fb27669
+
+
+* LR tire
+iside 1
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> L<<axle>>
+PARSFILE Tires\Tire\Tire_31d0d6dd-634b-436b-b451-8fdd1a3a7214.par
+#BlueLink13 Tire`185/65 R15` ` , Left-Rear Tire`Tire_31d0d6dd-634b-436b-b451-8fdd1a3a7214
+
+
+* RR tire
+iside 2
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> R<<axle>>
+PARSFILE Tires\Tire\Tire_31d0d6dd-634b-436b-b451-8fdd1a3a7214.par
+#BlueLink14 Tire`185/65 R15` ` , Rear Tire`Tire_31d0d6dd-634b-436b-b451-8fdd1a3a7214
+
+symbol_set <<axle>> 1
+WRITE_ADD_REFERENCE_FRAME_BODY
+PARSFILE Vehicles\Sprung_Mass\SprMass_e200008f-c003-4e17-b6bf-b7138be7c272.par
+#BlueLink0 Vehicle: Sprung Mass`B-Class, Hatchback Sprung Mass #1` CS B-Class` , Sprung Mass`SprMass_e200008f-c003-4e17-b6bf-b7138be7c272
+
+PARSFILE Aerodynamics\Aero_Main\Aero_e741c50c-f322-48be-bc47-25330faac9d2.par
+#BlueLink1 Aerodynamics: Basic`B-Class, Hatchback Aero` CS B-Class` , Aerodynamics`Aero_e741c50c-f322-48be-bc47-25330faac9d2
+
+PARSFILE Powertrain\Fwd\FWD_fc089106-75b9-4554-929d-17754d3f0da4.par
+#BlueLink3 Powertrain: Front-Wheel Drive`125 kW, 6-spd., 4.1 Ratio` ` , Powertrain`FWD_fc089106-75b9-4554-929d-17754d3f0da4
+
+PARSFILE Brakes\4W_System\Brk4W_a34f6ab7-7939-48de-ae8f-bcb5082a8c52.par
+#BlueLink6 Brakes: Four-Wheel System`B-Class, Hatchback w/ ABS` CS B-Class` , Brake System`Brk4W_a34f6ab7-7939-48de-ae8f-bcb5082a8c52
+
+PARSFILE Animator\Vehicles\AniVeh_4a7cba8e-dbdf-44eb-8d11-07b360cfbf24.par
+#BlueLink2 Animator: Vehicles and Sensor Targets`B-Class, Hatchback` B-Class Vehicles` , Vehicle 3D Shape`AniVeh_4a7cba8e-dbdf-44eb-8d11-07b360cfbf24
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_4a7cba8e-dbdf-44eb-8d11-07b360cfbf24.png
+
+#EMBEDDED_NOTES
+#Generic B-Class (Compact) hatchback with Strut front and 5-Link rear suspension.
+#
+#B-Class type vehicles include Alfa Romeo MiTo, Citroen C3, Fiat Sedici.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Vehicle: Assembly; { CS B-Class } B-Class, Hatchback #1
+#Library : Vehicle: Assembly
+#DataSet : B-Class, Hatchback #1
+#Category: CS B-Class
+#FileID  : Vehicle_e8882ea5-be7e-48d9-b891-5726c55ea8fa
+#Product : CarSim 2020.0
+#VehCode Ind_Ind
+
+END

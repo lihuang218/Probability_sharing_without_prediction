@@ -1,0 +1,40 @@
+PARSFILE
+#FullDataName Animator: Sound Sample`Longitudinal Tire Sound`Tire Sounds
+
+ADD_3D_SOUND Animator\Audio\Tire\Generic-Tire-01_Skid-01.wav
+#CheckBox0 1    
+LOOP_SOUND on
+
+#RingCtrl0 Default
+SOUND_AUTO_START Default
+
+SOUND_VOL_MULT 0.70
+SOUND_VOL_MIN 0.0
+SOUND_VOL_MAX 1.0
+SOUND_FREQ_MULT 1.0
+SOUND_FREQ_MIN 0.01
+SOUND_FREQ_MAX 1.0
+
+#MiscYellow0
+DEFINE_OUTPUT VXSLIP<<tire>> = VxCen<<tire>> - Vx_<<tire>>
+#ENDMYellow
+
+PARSFILE Animator\Sound\Modifier\SndMod_a56a42c7-d190-41c1-99e9-a518689d36f2.par
+#BlueLink0 Animator: Sound Modifier`Tire Slip - Freq` Tire Sound Modifiers` , Playback Modification 1`SndMod_a56a42c7-d190-41c1-99e9-a518689d36f2
+
+PARSFILE Animator\Sound\Modifier\SndMod_2e2aab90-ed00-4d13-9b0d-7812660f1c2a.par
+#BlueLink1 Animator: Sound Modifier`Tire Slip - Volume (Force)` Tire Sound Modifiers` , Playback Modification 2`SndMod_2e2aab90-ed00-4d13-9b0d-7812660f1c2a
+
+PARSFILE Animator\Sound\Modifier\SndMod_0d894750-78de-4cad-86fc-8a4b44742c52.par
+#BlueLink2 Animator: Sound Modifier`Tire Slip - Volume (Slip)` Tire Sound Modifiers` , Playback Modification 3`SndMod_0d894750-78de-4cad-86fc-8a4b44742c52
+
+
+LOG_ENTRY Used Dataset: Animator: Sound Sample; { Tire Sounds } Longitudinal Tire Sound
+#Library : Animator: Sound Sample
+#DataSet : Longitudinal Tire Sound
+#Category: Tire Sounds
+#FileID  : SndSmp_81d637f3-1946-467f-9b56-29546e33c77e
+#Product : CarSim 2020.0
+#VehCode Sound Sample
+
+END

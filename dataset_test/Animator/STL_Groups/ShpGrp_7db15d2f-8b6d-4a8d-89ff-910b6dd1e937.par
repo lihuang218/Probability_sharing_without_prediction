@@ -1,0 +1,84 @@
+PARSFILE
+#FullDataName Animator: Shape Assembly`B-Class, Hatchback`CS B-Class
+*COLOR .36 .117 .117
+*OFFSET_X 0
+*OFFSET_Y 0
+*OFFSET_Z 0.27
+*X_REF_LENGTH 2575
+*Y_REF_LENGTH 1600
+*Z_REF_LENGTH 1600
+#CheckBox0 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 1    
+
+#RingCtrl1 2
+#RingCtrl2 2
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL_Groups\ShpGrp_7db15d2f-8b6d-4a8d-89ff-910b6dd1e937.png
+PARSFILE Animator\STL\Shape_2d8485dd-13bc-44e4-a64b-e3482eee0553.par
+#BlueLink0 Animator: Shape File Link`Hatchback: Body` CS Hatchback` , Shape File`Shape_2d8485dd-13bc-44e4-a64b-e3482eee0553
+
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.27
+PARSFILE Animator\STL\Shape_fa6fe0da-6699-4e77-a828-8cc5125b7c2b.par
+#BlueLink1 Animator: Shape File Link`Hatchback: Body 2` CS Hatchback` , Shape File`Shape_fa6fe0da-6699-4e77-a828-8cc5125b7c2b
+
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.27
+PARSFILE Animator\STL\Shape_854be883-a3f9-4070-bcb3-3d8a723478d5.par
+#BlueLink2 Animator: Shape File Link`Hatchback: Details` CS Hatchback` , Shape File`Shape_854be883-a3f9-4070-bcb3-3d8a723478d5
+
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.27
+PARSFILE Animator\STL\Shape_83d06543-2cdd-4bdf-a94a-ae1518c308cc.par
+#BlueLink3 Animator: Shape File Link`Hatchback: Interior` CS Hatchback` , Shape File`Shape_83d06543-2cdd-4bdf-a94a-ae1518c308cc
+
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.27
+PARSFILE Animator\STL\Shape_493fc503-bfd6-4558-961a-8bbbc9bb843c.par
+#BlueLink4 Animator: Shape File Link`Hatchback: Interior Trim` CS Hatchback` , Shape File`Shape_493fc503-bfd6-4558-961a-8bbbc9bb843c
+
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.27
+PARSFILE Animator\STL\Shape_5365143a-e5fc-4f97-a258-5183916073a3.par
+#BlueLink5 Animator: Shape File Link`Hatchback: Steering Wheel` CS Hatchback` , Shape File`Shape_5365143a-e5fc-4f97-a258-5183916073a3
+
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.27
+PARSFILE Animator\STL\Shape_f6df7ac8-fb51-4aa9-b443-626445b4022b.par
+#BlueLink6 Animator: Shape File Link`Hatchback: Windows` CS Hatchback` , Shape File`Shape_f6df7ac8-fb51-4aa9-b443-626445b4022b
+
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.27
+PARSFILE Animator\STL\Shape_1d41bf60-84cc-4ecc-b957-194f2e9d5380.par
+#BlueLink13 Animator: Shape File Link`Hatchback: Driver` CS Hatchback` , Shape File`Shape_1d41bf60-84cc-4ecc-b957-194f2e9d5380
+
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.27
+x_ref_length 2575
+y_ref_length 1600
+z_ref_length 1600
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_1839153f-6773-4faf-b7a6-d89986a14abf.par
+#BlueLink17 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_1839153f-6773-4faf-b7a6-d89986a14abf
+
+
+LOG_ENTRY Used Dataset: Animator: Shape Assembly; { CS B-Class } B-Class, Hatchback
+#Library : Animator: Shape Assembly
+#DataSet : B-Class, Hatchback
+#Category: CS B-Class
+#FileID  : ShpGrp_7db15d2f-8b6d-4a8d-89ff-910b6dd1e937
+#Product : CarSim 2020.0
+#VehCode Shape Assembly
+
+END

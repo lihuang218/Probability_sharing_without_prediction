@@ -1,0 +1,49 @@
+PARSFILE
+#FullDataName Aerodynamics: Mx (Roll Moment) Coef. vs. Aero Slip`CMx`
+#CheckBox0 0    
+
+#RingCtrl0 LINEAR_FLAT
+#RadioCtrl0 0    
+
+#DiagramOne0
+MX_AERO_SHAPING_TABLE LINEAR_FLAT
+-90, 0
+-84, -0.0038
+-78, -0.0147
+-72, -0.0317
+-66, -0.0532
+-60, -0.077
+-54, -0.1008
+-48, -0.1223
+-42, -0.1393
+-36, -0.1502
+-30, -0.154
+-20, -0.154
+20, 0.154
+30, 0.154
+36, 0.1502
+42, 0.1393
+48, 0.1223
+54, 0.1008
+60, 0.077
+66, 0.0532
+72, 0.0317
+78, 0.0147
+84, 0.0038
+90, 0
+ENDTABLE
+
+
+#EMBEDDED_NOTES
+#Example CMx data.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Aerodynamics: Mx (Roll Moment) Coef. vs. Aero Slip; CMx
+#Library : Aerodynamics: Mx (Roll Moment) Coef. vs. Aero Slip
+#DataSet : CMx
+#Category: 
+#FileID  : AirCMx_a3893628-de74-4000-b54c-baefa95edc86
+#Product : CarSim 2020.0
+#VehCode Mx vs. Aero Slip
+
+END

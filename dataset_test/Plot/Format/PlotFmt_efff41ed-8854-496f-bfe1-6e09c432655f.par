@@ -1,0 +1,46 @@
+PARSFILE
+#FullDataName Plot: Format`Default Plot Settings`
+#CheckBox0 0    
+#CheckBox1 0    
+
+LEGENDPERCENT 40
+TITLEFONTSIZE 14
+#RingCtrl10 0
+TITLELOCATION 0
+#RingCtrl0 Axes
+AXES Axes
+#RingCtrl1 Noframe
+FRAME Noframe
+#RingCtrl2 NoGrid
+GRID NoGrid
+#RingCtrl3 FileTitle
+JUNK FileTitle
+#RingCtrl4 RigidBodyName
+LEGENDDATA_1 RigidBodyName
+#RingCtrl5 AutoLocation
+JUNK AutoLocation
+#RingCtrl6 Regular
+TITLEFONTSTYLE Regular
+TITLEFONTNAME Arial
+LEGENDFONTNAME Arial
+LEGENDFONTSIZE 14
+LEGENDFONTSTYLE Regular
+LABELFONTNAME Arial
+LABELFONTSIZE 14
+LABELFONTSTYLE Regular
+TICLABELFONTNAME Arial
+TICLABELFONTSIZE 14
+TICLABELFONTSTYLE Regular
+SYMBOLS 0,1,2,3,4,5,6,7,8,9,10,0,1,2,3,4,5,6,7,8
+LINESTYL 1,1,1,1,1,1,2,1,1,1,2,1,1,1,2,1,1,1,2,1
+COLORS 8,2,14,3,4,0,6,7,8,9,10,11,12,13,14,15,1,2,3,4
+
+LOG_ENTRY Used Dataset: Plot: Format; Default Plot Settings
+#Library : Plot: Format
+#DataSet : Default Plot Settings
+#Category: 
+#FileID  : PlotFmt_efff41ed-8854-496f-bfe1-6e09c432655f
+#Product : CarSim 2020.0
+#VehCode Plot Format
+
+END

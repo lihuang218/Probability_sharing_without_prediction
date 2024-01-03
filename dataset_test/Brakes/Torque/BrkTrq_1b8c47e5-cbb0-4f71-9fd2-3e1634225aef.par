@@ -1,0 +1,20 @@
+PARSFILE
+#FullDataName Brakes: Torque`150 N-m/MPa`
+#CheckBox0 0    
+
+#RingCtrl0 COEFFICIENT
+#RadioCtrl0 0    
+
+*SCALAR 150
+
+MY_BRAKE_COEFFICIENT 150
+
+LOG_ENTRY Used Dataset: Brakes: Torque; 150 N-m/MPa
+#Library : Brakes: Torque
+#DataSet : 150 N-m/MPa
+#Category: 
+#FileID  : BrkTrq_1b8c47e5-cbb0-4f71-9fd2-3e1634225aef
+#Product : CarSim 2020.0
+#VehCode Brake Torque
+
+END

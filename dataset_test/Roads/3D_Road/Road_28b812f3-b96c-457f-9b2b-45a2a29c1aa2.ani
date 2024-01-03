@@ -1,0 +1,39 @@
+PARSFILE
+add_reference_frame The Road
+reference_frame_ghosts off
+
+add_obj Roads\3D_Road\Road_28b812f3-b96c-457f-9b2b-45a2a29c1aa2_1.obj
+set_color 0.9 0.9 0.9
+show_front on
+show_back off
+compute_normals on
+set_specular 0.15 0.15 0.15
+set_auto_detail_type Random
+
+add_obj Roads\3D_Road\Road_28b812f3-b96c-457f-9b2b-45a2a29c1aa2_2.obj
+set_color 0.9 0.9 0.9
+show_front on
+show_back off
+compute_normals on
+set_specular 0.15 0.15 0.15
+set_auto_detail_type Random
+
+add_obj Roads\3D_Road\Road_28b812f3-b96c-457f-9b2b-45a2a29c1aa2_3.obj
+set_color 0.9 0.9 0.9
+show_front on
+show_back off
+compute_normals on
+set_specular 0.1 0.1 0.1
+set_auto_detail_type Random
+
+add_obj Roads\3D_Road\Road_28b812f3-b96c-457f-9b2b-45a2a29c1aa2_4.obj
+set_color 0.9 0.9 0.9
+show_front on
+show_back off
+compute_normals on
+set_specular 0.1 0.1 0.1
+set_auto_detail_type Random
+
+
+
+END

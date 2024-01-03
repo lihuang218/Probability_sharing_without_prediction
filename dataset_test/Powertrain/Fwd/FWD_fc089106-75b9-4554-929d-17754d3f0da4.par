@@ -1,0 +1,57 @@
+PARSFILE
+#FullDataName Powertrain: Front-Wheel Drive`125 kW, 6-spd., 4.1 Ratio`
+INSTALL_ENGINE
+INSTALL_TORQUE_TRANSFER_DEVICE
+INSTALL_TRANSMISSION
+
+OPT_PT 1
+R_REAR_DRIVE_SC 0
+
+OPT_ENGINE_PITCH_REACTION(1) 0
+
+#RingCtrl0 1
+#RingCtrl1 1
+#RingCtrl2 2
+#RingCtrl3 1
+#RingCtrl4 1
+R_MDRIVE 1
+#RingCtrl5 0
+OPT_HEV 0
+DRIVELINE_FREQ 9
+DRIVELINE_ZETA 0.9
+
+#CheckBox0 0    
+
+OPT_ENGINE_INTERNAL 1
+OPT_PWR_CPL_INTERNAL 1
+OPT_TRANS_INTERNAL 1
+OPT_DIFF_INTERNAL(1) 1
+
+PARSFILE Powertrain\Engine\Engine_8de5ebf9-c887-4cba-b424-3093d875918a.par
+#BlueLink0 Powertrain: Engine`125 kW  Engine` CS Engine Torque Curves` , Engine`Engine_8de5ebf9-c887-4cba-b424-3093d875918a
+
+PARSFILE Powertrain\TConv\TC_610ffb64-ae7f-4eda-9142-e6cc92600bd4.par
+#BlueLink1 Powertrain: Torque Converter`Torque Converter for 125 kW Engine` CS Torque Converters` , Torque Conv.`TC_610ffb64-ae7f-4eda-9142-e6cc92600bd4
+
+PARSFILE Powertrain\TransExt\Trans18_ddfcc199-a01d-4d72-8b25-1731bca18f34.par
+#BlueLink8 Powertrain: Transmission (18 Gears or CVT)`6-Speed Transmission` CS 8.01 Transmissions` , Transmission (Extended)`Trans18_ddfcc199-a01d-4d72-8b25-1731bca18f34
+
+
+IDIFF 1
+PARSFILE Powertrain\Frontdiff\DiffF_74b44e70-974e-4b70-aa32-84faf47c5b10.par
+#BlueLink4 Powertrain: Front Differential`Open - Gear Ratio 4.1` CS Front Differentials` , Differential`DiffF_74b44e70-974e-4b70-aa32-84faf47c5b10
+
+
+#EMBEDDED_NOTES
+#Generic 125 kW powertrain with an automatic transmission. The torque converter data has been tuned to work with the 125 kW engine to give reasonable performance.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Powertrain: Front-Wheel Drive; 125 kW, 6-spd., 4.1 Ratio
+#Library : Powertrain: Front-Wheel Drive
+#DataSet : 125 kW, 6-spd., 4.1 Ratio
+#Category: 
+#FileID  : FWD_fc089106-75b9-4554-929d-17754d3f0da4
+#Product : CarSim 2020.0
+#VehCode FWD
+
+END

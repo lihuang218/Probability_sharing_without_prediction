@@ -1,0 +1,49 @@
+PARSFILE
+#FullDataName Aerodynamics: Fy (Side Force) Coef. vs. Aero Slip`CFy`
+#CheckBox0 0    
+
+#RingCtrl0 LINEAR_FLAT
+#RadioCtrl0 0    
+
+#DiagramOne0
+FY_AERO_SHAPING_TABLE LINEAR_FLAT
+-90, 0
+-84, -0.0169
+-78, -0.0659
+-72, -0.1422
+-66, -0.2384
+-60, -0.345
+-54, -0.4516
+-48, -0.5478
+-42, -0.6241
+-36, -0.6731
+-30, -0.69
+-20, -0.69
+20, 0.69
+30, 0.69
+36, 0.6731
+42, 0.6241
+48, 0.5478
+54, 0.4516
+60, 0.345
+66, 0.2384
+72, 0.1422
+78, 0.0659
+84, 0.0169
+90, 0
+ENDTABLE
+
+
+#EMBEDDED_NOTES
+#Example CFy data.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Aerodynamics: Fy (Side Force) Coef. vs. Aero Slip; CFy
+#Library : Aerodynamics: Fy (Side Force) Coef. vs. Aero Slip
+#DataSet : CFy
+#Category: 
+#FileID  : AirCFy_d82822e0-b68b-4403-ae6f-41608978dac8
+#Product : CarSim 2020.0
+#VehCode Fy vs. Aero Slip
+
+END

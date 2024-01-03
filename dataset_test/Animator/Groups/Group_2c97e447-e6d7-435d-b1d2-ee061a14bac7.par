@@ -1,0 +1,31 @@
+PARSFILE
+#FullDataName Animator: Group`Partly Cloudy Sky (Normal Resolution)`Skies
+PARSFILE Animator\Frames\Frame_884150b3-d879-4fe7-a04e-f19e462b034b.par
+#BlueLink0 Animator: Reference Frame`Camera Front Point w/o Yaw` Road Tracking` , Miscellaneous`Frame_884150b3-d879-4fe7-a04e-f19e462b034b
+
+PARSFILE Animator\STL\Shape_6aabd900-c417-4341-be70-f4fec4ed68bc.par
+#BlueLink1 Animator: Shape File Link`Partly Cloudy Sky (Normal Resolution)` Skies` , Miscellaneous`Shape_6aabd900-c417-4341-be70-f4fec4ed68bc
+
+PARSFILE Animator\STL\Shape_b9805473-dc22-4610-9109-5c84662429aa.par
+#BlueLink2 Animator: Shape File Link`Complex Land Bowl for Light Grass` Terrain` , Miscellaneous`Shape_b9805473-dc22-4610-9109-5c84662429aa
+
+PARSFILE Animator\STL\Shape_7de0f183-2888-4ca2-aab3-c5cde9debde0.par
+#BlueLink3 Animator: Shape File Link`Mountains` Terrain` , Miscellaneous`Shape_7de0f183-2888-4ca2-aab3-c5cde9debde0
+
+
+#CheckBox0 0    
+
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_1839153f-6773-4faf-b7a6-d89986a14abf.par
+#BlueLink20 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_1839153f-6773-4faf-b7a6-d89986a14abf
+
+
+LOG_ENTRY Used Dataset: Animator: Group; { Skies } Partly Cloudy Sky (Normal Resolution)
+#Library : Animator: Group
+#DataSet : Partly Cloudy Sky (Normal Resolution)
+#Category: Skies
+#FileID  : Group_2c97e447-e6d7-435d-b1d2-ee061a14bac7
+#Product : CarSim 2020.0
+#VehCode Animator Group
+
+END

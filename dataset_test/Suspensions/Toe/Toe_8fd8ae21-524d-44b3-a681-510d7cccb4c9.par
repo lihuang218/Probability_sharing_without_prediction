@@ -1,0 +1,40 @@
+PARSFILE
+#FullDataName Suspension: Toe Angle`Front Strut - Toe Change`Strut
+#CheckBox0 0    
+
+#RingCtrl0 SPLINE
+#RingCtrl1 CONSTANT
+#RingCtrl2 ADD
+TOE_COMBINE ADD
+#DiagramOne0
+TOE_TABLE SPLINE
+-70, -0.932437
+-60, -0.740516
+-50, -0.56874
+-40, -0.416666
+-30, -0.283952
+-20, -0.170354
+-10, -0.075723
+0, 0
+10, 0.056776
+20, 0.09447
+30, 0.112841
+40, 0.11153
+50, 0.090047
+60, 0.047744
+70, -0.016224
+ENDTABLE
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+
+
+LOG_ENTRY Used Dataset: Suspension: Toe Angle; { Strut } Front Strut - Toe Change
+#Library : Suspension: Toe Angle
+#DataSet : Front Strut - Toe Change
+#Category: Strut
+#FileID  : Toe_8fd8ae21-524d-44b3-a681-510d7cccb4c9
+#Product : CarSim 2020.0
+#VehCode Toe
+
+END

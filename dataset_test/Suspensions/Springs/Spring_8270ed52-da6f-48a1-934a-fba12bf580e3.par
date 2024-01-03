@@ -1,0 +1,25 @@
+PARSFILE
+#FullDataName Suspension: Spring`28 N/mm`
+#RingCtrl0 COEFFICIENT
+FS_COMP_COEFFICIENT 28
+FS_EXT_COEFFICIENT 28
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+SPRING_COMP_BETA 3.0
+SPRING_EXT_BETA 3.0
+*SCALAR 28
+*OFFSET 20
+
+FS_COMP_OFFSET 20
+FS_EXT_OFFSET -20
+
+LOG_ENTRY Used Dataset: Suspension: Spring; 28 N/mm
+#Library : Suspension: Spring
+#DataSet : 28 N/mm
+#Category: 
+#FileID  : Spring_8270ed52-da6f-48a1-934a-fba12bf580e3
+#Product : CarSim 2020.0
+#VehCode Spring Alone
+
+END

@@ -1,0 +1,43 @@
+PARSFILE
+#FullDataName Animator: Shape Assembly`Fz Double, Offset (Tail Origin)`mpctest
+*COLOR 1 1 0
+*OFFSET_X 0
+*OFFSET_Y 0.5
+*OFFSET_Z 0
+#CheckBox0 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 0    
+
+#RingCtrl1 1
+#RingCtrl2 2
+*IMAGE_TYPE DEFAULT
+PARSFILE Animator\STL\Shape_c9958a6c-f1c5-41f7-b858-712febdec2d7.par
+#BlueLink0 Animator: Shape File Link`Flat Arrow for Z (Tail Origin, Side View)` mpctest` , Shape File`Shape_c9958a6c-f1c5-41f7-b858-712febdec2d7
+
+set_lighting off
+set_offset_x 0
+set_offset_y 0.5
+set_offset_z 0
+PARSFILE Animator\STL\Shape_89a7491f-fbb9-4711-8054-37efd96fdbee.par
+#BlueLink1 Animator: Shape File Link`Flat Arrow for Z (Tail Origin, Front View)` mpctest` , Shape File`Shape_89a7491f-fbb9-4711-8054-37efd96fdbee
+
+set_lighting off
+set_offset_x 0
+set_offset_y 0.5
+set_offset_z 0
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_2c5db12e-3cc8-498d-a310-8d4023f7b804.par
+#BlueLink17 Animator: Camera Setup`Shape Preview (Side)` mpctest` , Video Camera`Camera_2c5db12e-3cc8-498d-a310-8d4023f7b804
+
+
+LOG_ENTRY Used Dataset: Animator: Shape Assembly; { mpctest } Fz Double, Offset (Tail Origin)
+#Library : Animator: Shape Assembly
+#DataSet : Fz Double, Offset (Tail Origin)
+#Category: mpctest
+#FileID  : ShpGrp_8c23698b-e944-4545-9ce5-88068c44fe9d
+#Product : CarSim 2020.0
+#VehCode Shape Assembly
+
+END

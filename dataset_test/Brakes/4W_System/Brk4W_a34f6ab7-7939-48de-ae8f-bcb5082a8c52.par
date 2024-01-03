@@ -1,0 +1,106 @@
+PARSFILE
+#FullDataName Brakes: Four-Wheel System`B-Class, Hatchback w/ ABS`CS B-Class
+#CheckBox1 1    
+#RingCtrl0 2
+#RingCtrl1 1
+#RingCtrl2 2
+#RingCtrl3 2
+#RingCtrl4 2
+#RingCtrl5 2
+#RingCtrl6 2
+#RingCtrl7 2
+#RingCtrl8 2
+#RingCtrl9 2
+#RingCtrl10 1
+#RingCtrl11 1
+#RingCtrl12 1
+#RingCtrl13 1
+#RingCtrl14 0
+OPT_BK_PEDAL 0
+TL_L1 0
+TL_R1 0
+TL_L2 0
+TL_R2 0
+
+iaxle 1
+iside 1
+symbol_push <<ax_bk>> <<axle>>
+symbol_push <<side>> L
+TLAG_BK 0
+PARSFILE Brakes\Proportioning\BrkProp_7f2f3eee-afee-4fa3-ba47-ac4403f05e9d.par
+#BlueLink4 Brakes: Proportioning / Limiting Valve`Unity Gain` ` , Proportioning`BrkProp_7f2f3eee-afee-4fa3-ba47-ac4403f05e9d
+
+TC_L1 0.06
+TC_BK 0.06
+OPT_BK_DYN 1
+PARSFILE Brakes\Torque\BrkTrq_3aabc180-796d-4ed5-9f61-8d9aef7af7ef.par
+#BlueLink0 Brakes: Torque`250 N-m/MPa` ` , Torque`BrkTrq_3aabc180-796d-4ed5-9f61-8d9aef7af7ef
+
+
+INSTALL_ABS_CONTROLLER
+OPT_ABS_CTRL 2
+*OFF_F 0.2
+*ON_F 0.1
+*V_F 2
+ABS_SLIP_OFF 0.2
+ABS_SLIP_ON 0.1
+ABS_VMIN 2
+
+iside 2
+symbol_set <<side>> R
+TLAG_BK 0
+PARSFILE Brakes\Proportioning\BrkProp_7f2f3eee-afee-4fa3-ba47-ac4403f05e9d.par
+#BlueLink5 Brakes: Proportioning / Limiting Valve`Unity Gain` ` , Proportioning`BrkProp_7f2f3eee-afee-4fa3-ba47-ac4403f05e9d
+
+TC_R1 0.06
+TC_BK 0.06
+OPT_BK_DYN 1
+PARSFILE Brakes\Torque\BrkTrq_3aabc180-796d-4ed5-9f61-8d9aef7af7ef.par
+#BlueLink1 Brakes: Torque`250 N-m/MPa` ` , Torque`BrkTrq_3aabc180-796d-4ed5-9f61-8d9aef7af7ef
+
+
+iaxle 2
+iside 1
+symbol_add <<ax_bk>> 1
+symbol_set <<side>> L
+TLAG_BK 0
+PARSFILE Brakes\Proportioning\BrkProp_f1936408-98dc-4ce1-8695-8698e9c4f9fb.par
+#BlueLink6 Brakes: Proportioning / Limiting Valve`Unity until 1.5Mpa then 30%` ` , Proportioning`BrkProp_f1936408-98dc-4ce1-8695-8698e9c4f9fb
+
+TC_L2 0.06
+TC_BK 0.06
+OPT_BK_DYN 1
+PARSFILE Brakes\Torque\BrkTrq_1b8c47e5-cbb0-4f71-9fd2-3e1634225aef.par
+#BlueLink2 Brakes: Torque`150 N-m/MPa` ` , Torque`BrkTrq_1b8c47e5-cbb0-4f71-9fd2-3e1634225aef
+
+
+OPT_ABS_CTRL 1
+*OFF_R 0.1
+*ON_R 0.06
+*V_R 2
+ABS_SLIP_OFF 0.1
+ABS_SLIP_ON 0.06
+ABS_VMIN 2
+
+iside 2
+symbol_set <<side>> R
+TLAG_BK 0
+PARSFILE Brakes\Proportioning\BrkProp_f1936408-98dc-4ce1-8695-8698e9c4f9fb.par
+#BlueLink7 Brakes: Proportioning / Limiting Valve`Unity until 1.5Mpa then 30%` ` , Proportioning`BrkProp_f1936408-98dc-4ce1-8695-8698e9c4f9fb
+
+TC_R2 0.06
+TC_BK 0.06
+OPT_BK_DYN 1
+PARSFILE Brakes\Torque\BrkTrq_1b8c47e5-cbb0-4f71-9fd2-3e1634225aef.par
+#BlueLink3 Brakes: Torque`150 N-m/MPa` ` , Torque`BrkTrq_1b8c47e5-cbb0-4f71-9fd2-3e1634225aef
+
+
+LOG_ENTRY Used Dataset: Brakes: Four-Wheel System; { CS B-Class } B-Class, Hatchback w/ ABS
+#Library : Brakes: Four-Wheel System
+#DataSet : B-Class, Hatchback w/ ABS
+#Category: CS B-Class
+#FileID  : Brk4W_a34f6ab7-7939-48de-ae8f-bcb5082a8c52
+#Product : CarSim 2020.0
+#VehCode 4-Wheel System
+
+END

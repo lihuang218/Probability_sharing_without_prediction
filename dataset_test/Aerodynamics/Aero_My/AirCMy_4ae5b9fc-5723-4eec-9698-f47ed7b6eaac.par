@@ -1,0 +1,68 @@
+PARSFILE
+#FullDataName Aerodynamics: My (Pitch Moment) Coef. vs. Aero Slip`CMy`
+#CheckBox0 0    
+
+#RingCtrl0 LINEAR_FLAT
+#RadioCtrl0 0    
+
+#DiagramOne0
+MY_AERO_SHAPING_TABLE LINEAR_FLAT
+-90, 0
+-84, 0.0044
+-78, 0.0172
+-72, 0.0371
+-66, 0.0622
+-60, 0.09
+-54, 0.1178
+-48, 0.1429
+-42, 0.1628
+-36, 0.1756
+-30, 0.18
+-20, 0.18001
+-18, 0.165844
+-16, 0.153168
+-14, 0.141984
+-12, 0.132292
+-10, 0.12409
+-8, 0.11738
+-6, 0.11216
+-4, 0.108432
+-2, 0.106196
+0, 0.10545
+2, 0.106196
+4, 0.108432
+6, 0.11216
+8, 0.11738
+10, 0.12409
+12, 0.132292
+14, 0.141984
+16, 0.153168
+18, 0.165844
+20, 0.18001
+30, 0.18
+36, 0.1756
+42, 0.1628
+48, 0.1429
+54, 0.1178
+60, 0.09
+66, 0.0622
+72, 0.0371
+78, 0.0172
+84, 0.0044
+90, 0
+ENDTABLE
+
+
+#EMBEDDED_NOTES
+#Example CMy data.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Aerodynamics: My (Pitch Moment) Coef. vs. Aero Slip; CMy
+#Library : Aerodynamics: My (Pitch Moment) Coef. vs. Aero Slip
+#DataSet : CMy
+#Category: 
+#FileID  : AirCMy_4ae5b9fc-5723-4eec-9698-f47ed7b6eaac
+#Product : CarSim 2020.0
+#VehCode My vs. Aero Slip
+
+END

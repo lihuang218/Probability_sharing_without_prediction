@@ -1,0 +1,25 @@
+PARSFILE
+#FullDataName I/O Channels: Import`MPCtest1 input #1`
+#RingCtrl0 0
+#RingCtrl1 1
+*README_FILE Results\Run_bf90246f-fadd-4e3a-a352-50ccf8adae1d\Run_imp_tab.txt
+
+#MiscYellow0
+IMP_STEER_L1 Add 0.0 ! 1
+IMP_STEER_R1 Add 0.0 ! 1
+IMP_STEER_L2 Add 0.0 ! 1
+IMP_STEER_R2 Add 0.0 ! 1
+#ENDMYellow
+
+#BlueLink0 CarSim Run Control`MPCtest1 #1` Example` , example run`Run_bf90246f-fadd-4e3a-a352-50ccf8adae1d
+
+
+LOG_ENTRY Used Dataset: I/O Channels: Import; MPCtest1 input #1
+#Library : I/O Channels: Import
+#DataSet : MPCtest1 input #1
+#Category: 
+#FileID  : Import_f7527dc5-0e5a-49e6-a28b-a2a412fecea0
+#Product : CarSim 2020.0
+#VehCode Import Channels
+
+END

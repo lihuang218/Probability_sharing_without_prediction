@@ -1,0 +1,36 @@
+PARSFILE
+#FullDataName Animator: Sound Sample`Gas Engine Sample, Power`Engine Sounds
+
+ADD_3D_SOUND Animator\Audio\Engine\Generic-Engine-02_L4_2.4L_1.0-Load_03-Mid-RPM.WAV
+#CheckBox0 1    
+LOOP_SOUND on
+
+#RingCtrl0 Default
+SOUND_AUTO_START Default
+
+SOUND_VOL_MULT 0.8
+SOUND_VOL_MIN 0.01
+SOUND_VOL_MAX 9.0
+SOUND_FREQ_MULT 1.0
+SOUND_FREQ_MIN 0.01
+SOUND_FREQ_MAX 9.0
+
+PARSFILE Animator\Sound\Modifier\SndMod_ed9faa71-edb0-4aec-9a76-898d1144b6d6.par
+#BlueLink0 Animator: Sound Modifier`Gas Engine Vol. 2, Throttle` Engine Sound Modifiers` , Playback Modification 1`SndMod_ed9faa71-edb0-4aec-9a76-898d1144b6d6
+
+PARSFILE Animator\Sound\Modifier\SndMod_7e3d27f0-1320-42a0-8605-b68b2ab8ef4f.par
+#BlueLink1 Animator: Sound Modifier`Gas Engine, RPM` Engine Sound Modifiers` , Playback Modification 2`SndMod_7e3d27f0-1320-42a0-8605-b68b2ab8ef4f
+
+PARSFILE Animator\Sound\Modifier\SndMod_4da40e43-95d0-462b-b22b-e8261ed66139.par
+#BlueLink2 Animator: Sound Modifier`Gas Engine Freq 1` Engine Sound Modifiers` , Playback Modification 3`SndMod_4da40e43-95d0-462b-b22b-e8261ed66139
+
+
+LOG_ENTRY Used Dataset: Animator: Sound Sample; { Engine Sounds } Gas Engine Sample, Power
+#Library : Animator: Sound Sample
+#DataSet : Gas Engine Sample, Power
+#Category: Engine Sounds
+#FileID  : SndSmp_54bc0721-98aa-40ac-82d3-c350a760c923
+#Product : CarSim 2020.0
+#VehCode Sound Sample
+
+END
